@@ -47,7 +47,7 @@ python rerender.py --download train.jsonl --n 2 --seed 1   # the 2,550 published
 python train.py --data train.jsonl --seed 44 --out model  # one NVIDIA A10G, about 45 minutes
 python evaluate.py --model model --data grascco --split dev
 python export_onnx.py --model model --check train.jsonl   # fp32, fp16 and int8 files, agreement with PyTorch
-python plot_pareto.py results/dev_comparison.json --metric mdeid_leak_rate --lower-is-better --out pareto
+python plot_pareto.py results/test_comparison.json --metric mdeid_leak_rate --lower-is-better --percent --out pareto
 ```
 
 To make new letters, `factory.py` writes them through the OpenRouter API (`OPENROUTER_API_KEY`) and `labels.py` turns them into labelled records.

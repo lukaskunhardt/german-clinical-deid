@@ -1,6 +1,6 @@
 {
  "title": "German de-identification models on development data: quality against size",
- "caption": "Development data only (GraSCCo dev: 22 letters; MDeID German train split, half B: 235 notes). Test numbers follow in the final card.",
+ "caption": "Development data only (GraSCCo dev: 22 letters; MDeID German train split, half B: 235 notes).",
  "metrics": {
   "char_f1": "Character F1, GraSCCo dev (22 letters)",
   "grascco_leak_rate": "Letters with a leak, GraSCCo dev (22 letters)",
