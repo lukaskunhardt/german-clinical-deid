@@ -1,6 +1,6 @@
 [project]
 name = "german-clinical-deid"
-version = "1.0.0"
+version = "1.0.2"
 description = "Find and remove personal information in German clinical text"
 readme = "README.md"
 license = { text = "MIT" }

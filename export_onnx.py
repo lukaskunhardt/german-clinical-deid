@@ -1,11 +1,11 @@
-"""Export the model to ONNX (fp32 and fp16) and check that the fp16 file gives the same spans as PyTorch.
+"""Export the model to ONNX (fp32, fp16 and int8) and check that an ONNX file gives the same spans as PyTorch.
 
   python export_onnx.py --model model --out model/onnx --check letters.jsonl
 
-The shipped file is fp16 with inputs and outputs kept in fp32; fp32 and fp16 gave the PyTorch numbers exactly on GraSCCo dev.
-The default dynamic int8 recipe of onnxruntime without its preprocessing step (per tensor, and per channel with the classifier head
-in fp32) gave character F1 0.111 and precision 0.059 there on 20 Nov 2026: almost every character scored above the threshold of 0.01.
-With reduce_range=True (and quant_pre_process) it gave 0.969 against 0.970 for fp32. The int8 export follows with the next version.
+The shipped files are fp16 (inputs and outputs kept in fp32) and int8. fp32 and fp16 gave the PyTorch numbers exactly on GraSCCo dev.
+int8 is dynamic quantization from onnxruntime: its preprocessing step, int8 weights per channel, only MatMul layers, the classifier
+head in fp32, and reduce_range=True. Without reduce_range (also with the preprocessing step) the int8 model marked almost every
+character on GraSCCo dev (character F1 0.111) on 20 Nov 2026; with it, character F1 was 0.969 against 0.970 for fp32.
 """
 import argparse
 import json
@@ -35,6 +35,23 @@ def export(model_dir, out):
         print(f, round(os.path.getsize(os.path.join(out, f)) / 1e6), "MB")
 
 
+def quantize_int8(out):
+    import onnx
+    from onnxruntime.quantization import QuantType, quantize_dynamic
+    from onnxruntime.quantization.shape_inference import quant_pre_process
+
+    pre = os.path.join(out, "model_pre.onnx")
+    quant_pre_process(os.path.join(out, "model.onnx"), pre, skip_symbolic_shape=True)
+    # the classifier head stays fp32: its 19 class scores are read at a threshold as low as 0.01
+    head = [n.name for n in onnx.load(pre, load_external_data=False).graph.node
+            if n.op_type in ("MatMul", "Gemm") and "classifier" in n.name]
+    # reduce_range=True (7-bit weights; onnxruntime advises it for per-channel int8): F1 0.111 without it, 0.969 with it
+    quantize_dynamic(pre, os.path.join(out, "model_int8.onnx"), weight_type=QuantType.QInt8, op_types_to_quantize=["MatMul"],
+                     per_channel=True, reduce_range=True, nodes_to_exclude=head)
+    os.remove(pre)
+    print("model_int8.onnx", round(os.path.getsize(os.path.join(out, "model_int8.onnx")) / 1e6), "MB")
+
+
 def check(model_dir, onnx_file, path, n):
     """Share of texts with identical redaction spans and identical typed spans, PyTorch against ONNX."""
     import gc
@@ -61,10 +78,13 @@ def main():
     ap.add_argument("--n", type=int, default=50)
     a = ap.parse_args()
     out = a.out or os.path.join(a.model, "onnx")
-    if not os.path.exists(os.path.join(out, "model_fp16.onnx")):
+    if not all(os.path.exists(os.path.join(out, f)) for f in ("model.onnx", "model_fp16.onnx")):
         export(a.model, out)
+    if not os.path.exists(os.path.join(out, "model_int8.onnx")):
+        quantize_int8(out)
     if a.check:
-        check(a.model, os.path.relpath(os.path.join(out, "model_fp16.onnx"), a.model), a.check, a.n)
+        for f in ("model_fp16.onnx", "model_int8.onnx"):
+            check(a.model, os.path.relpath(os.path.join(out, f), a.model), a.check, a.n)
 
 
 if __name__ == "__main__":
