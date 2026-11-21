@@ -1,0 +1,671 @@
+{
+ "title": "German de-identification models on the test sets: quality against size",
+ "caption": "GraSCCo test (41 letters) and MDeID German test (402 notes), opened once on 20 Nov 2026, 16:06 UTC; every model read through the same decoder.",
+ "metrics": {
+  "char_f1": "Character F1, GraSCCo test (41 letters)",
+  "grascco_leak_rate": "Letters with a leak, GraSCCo test (41 letters)",
+  "mdeid_leak_rate": "Notes with a leak, MDeID German test (402 notes)",
+  "mdeid_strict_typed_f1": "Strict typed F1, MDeID German test (402 notes, 28 categories)"
+ },
+ "source": "final test opening of 20 Nov 2026, 16:06 UTC",
+ "models": [
+  {
+   "name": "LukasKunhardt/german-clinical-deid",
+   "params": 334705683,
+   "released": true,
+   "rows": [
+    {
+     "setting": "threshold 0.01 (shipped)",
+     "char_f1": 0.9599544289376246,
+     "char_p": 0.9343535151918385,
+     "char_r": 0.9869977743938152,
+     "grascco_leaks": 2,
+     "grascco_leaks_strict": 2,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.04878048780487805,
+     "mdeid_char_f1": 0.9583117225429594,
+     "mdeid_leak_rate": 0.11691542288557213,
+     "mdeid_leak_rate_no_random_ids": 0.03731343283582089,
+     "mdeid_strict_typed_f1": 0.4751223491027732
+    },
+    {
+     "setting": "PyTorch, without the lower-case second reading",
+     "char_f1": 0.9599544289376246,
+     "char_p": 0.9343535151918385,
+     "char_r": 0.9869977743938152,
+     "grascco_leaks": 2,
+     "grascco_leaks_strict": 2,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.04878048780487805,
+     "mdeid_char_f1": 0.9583117225429594,
+     "mdeid_leak_rate": 0.11691542288557213,
+     "mdeid_leak_rate_no_random_ids": 0.03731343283582089,
+     "mdeid_strict_typed_f1": 0.4751223491027732
+    },
+    {
+     "setting": "onnx/model_fp16.onnx (shipped file)",
+     "char_f1": 0.9597904089304021,
+     "char_p": 0.9340427890477774,
+     "char_r": 0.9869977743938152,
+     "grascco_leaks": 2,
+     "grascco_leaks_strict": 2,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.04878048780487805,
+     "mdeid_char_f1": 0.9582883426715525,
+     "mdeid_leak_rate": 0.11691542288557213,
+     "mdeid_leak_rate_no_random_ids": 0.03731343283582089,
+     "mdeid_strict_typed_f1": 0.47491843393148453
+    }
+   ]
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-base",
+   "params": 307575611,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.8241633956489921,
+     "char_p": 0.9538035109331691,
+     "char_r": 0.7255476162586388,
+     "grascco_leaks": 15,
+     "grascco_leaks_strict": 22,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.36585365853658536,
+     "mdeid_char_f1": 0.902438459364416,
+     "mdeid_leak_rate": 0.5796019900497512,
+     "mdeid_leak_rate_no_random_ids": 0.2885572139303483,
+     "mdeid_strict_typed_f1": 0.36870373058499056
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.8317167798254123,
+     "char_p": 0.8619173262972736,
+     "char_r": 0.8035609698957479,
+     "grascco_leaks": 8,
+     "grascco_leaks_strict": 12,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.1951219512195122,
+     "mdeid_char_f1": 0.947927034430518,
+     "mdeid_leak_rate": 0.23383084577114427,
+     "mdeid_leak_rate_no_random_ids": 0.07711442786069651,
+     "mdeid_strict_typed_f1": 0.36316355810616924
+    }
+   ]
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-small",
+   "params": 140664251,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.8036517419614688,
+     "char_p": 0.9411949685534591,
+     "char_r": 0.7011830853929952,
+     "grascco_leaks": 22,
+     "grascco_leaks_strict": 29,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.5365853658536586,
+     "mdeid_char_f1": 0.8918771222658678,
+     "mdeid_leak_rate": 0.6467661691542289,
+     "mdeid_leak_rate_no_random_ids": 0.30597014925373134,
+     "mdeid_strict_typed_f1": 0.36887351778656124
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.8011588718737067,
+     "char_p": 0.8088586437440306,
+     "char_r": 0.7936043106477685,
+     "grascco_leaks": 13,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.3170731707317073,
+     "mdeid_char_f1": 0.9362991760729826,
+     "mdeid_leak_rate": 0.27611940298507465,
+     "mdeid_leak_rate_no_random_ids": 0.08208955223880597,
+     "mdeid_strict_typed_f1": 0.3668796836927037
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1",
+   "params": 141385834,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.8245142750046854,
+     "char_p": 0.8834002677376172,
+     "char_r": 0.77298816914607,
+     "grascco_leaks": 25,
+     "grascco_leaks_strict": 29,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.6097560975609756,
+     "mdeid_char_f1": 0.9100511740875928,
+     "mdeid_leak_rate": 0.6592039800995025,
+     "mdeid_leak_rate_no_random_ids": 0.40298507462686567,
+     "mdeid_strict_typed_f1": 0.3752636625119847
+    },
+    {
+     "setting": "matched threshold 0.3",
+     "char_f1": 0.8313600753961242,
+     "char_p": 0.8361374407582939,
+     "char_r": 0.8266369919175355,
+     "grascco_leaks": 22,
+     "grascco_leaks_strict": 25,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.5365853658536586,
+     "mdeid_char_f1": 0.937249759901066,
+     "mdeid_leak_rate": 0.4129353233830846,
+     "mdeid_leak_rate_no_random_ids": 0.22139303482587064,
+     "mdeid_strict_typed_f1": 0.364780443639656
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1",
+   "params": 183889996,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.7627197967506854,
+     "char_p": 0.8884735202492212,
+     "char_r": 0.6681504041232283,
+     "grascco_leaks": 22,
+     "grascco_leaks_strict": 32,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.5365853658536586,
+     "mdeid_char_f1": 0.8910250459516161,
+     "mdeid_leak_rate": 0.6343283582089553,
+     "mdeid_leak_rate_no_random_ids": 0.5895522388059702,
+     "mdeid_strict_typed_f1": 0.2549194194639836
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.7747015494030988,
+     "char_p": 0.8459298294272639,
+     "char_r": 0.7145367225020499,
+     "grascco_leaks": 21,
+     "grascco_leaks_strict": 31,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.5121951219512195,
+     "mdeid_char_f1": 0.9086771292284165,
+     "mdeid_leak_rate": 0.46766169154228854,
+     "mdeid_leak_rate_no_random_ids": 0.4154228855721393,
+     "mdeid_strict_typed_f1": 0.2550353012517867
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1",
+   "params": 148127308,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.7026732133115112,
+     "char_p": 0.728140703517588,
+     "char_r": 0.6789270235445707,
+     "grascco_leaks": 30,
+     "grascco_leaks_strict": 35,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7317073170731707,
+     "mdeid_char_f1": 0.8366799715366889,
+     "mdeid_leak_rate": 0.7437810945273632,
+     "mdeid_leak_rate_no_random_ids": 0.6940298507462687,
+     "mdeid_strict_typed_f1": 0.22017318043529135
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.7148107099107507,
+     "char_p": 0.7119451545433418,
+     "char_r": 0.7176994260278786,
+     "grascco_leaks": 30,
+     "grascco_leaks_strict": 34,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7317073170731707,
+     "mdeid_char_f1": 0.8448729834971259,
+     "mdeid_leak_rate": 0.7213930348258707,
+     "mdeid_leak_rate_no_random_ids": 0.6716417910447762,
+     "mdeid_strict_typed_f1": 0.22596685082872925
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1",
+   "params": 334170188,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.5185913830415109,
+     "char_p": 0.5890941597139452,
+     "char_r": 0.4631603607824763,
+     "grascco_leaks": 40,
+     "grascco_leaks_strict": 41,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.975609756097561,
+     "mdeid_char_f1": 0.6427191228346103,
+     "mdeid_leak_rate": 0.9651741293532339,
+     "mdeid_leak_rate_no_random_ids": 0.9427860696517413,
+     "mdeid_strict_typed_f1": 0.04991408231732264
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.5083100708610695,
+     "char_p": 0.40127474911852457,
+     "char_r": 0.6932177579946117,
+     "grascco_leaks": 36,
+     "grascco_leaks_strict": 38,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.8780487804878049,
+     "mdeid_char_f1": 0.778009440111691,
+     "mdeid_leak_rate": 0.7935323383084577,
+     "mdeid_leak_rate_no_random_ids": 0.746268656716418,
+     "mdeid_strict_typed_f1": 0.09471307120085017
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1",
+   "params": 108950092,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6257402860031779,
+     "char_p": 0.815972876247881,
+     "char_r": 0.5074382101440787,
+     "grascco_leaks": 37,
+     "grascco_leaks_strict": 40,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.9024390243902439,
+     "mdeid_char_f1": 0.7531971022557477,
+     "mdeid_leak_rate": 0.8930348258706468,
+     "mdeid_leak_rate_no_random_ids": 0.8383084577114428,
+     "mdeid_strict_typed_f1": 0.1063966570234651
+    },
+    {
+     "setting": "matched threshold 0.3",
+     "char_f1": 0.6428182313419285,
+     "char_p": 0.6650801603206413,
+     "char_r": 0.6219983600796533,
+     "grascco_leaks": 36,
+     "grascco_leaks_strict": 40,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.8780487804878049,
+     "mdeid_char_f1": 0.785027735506357,
+     "mdeid_leak_rate": 0.8557213930348259,
+     "mdeid_leak_rate_no_random_ids": 0.8059701492537313,
+     "mdeid_strict_typed_f1": 0.1101174045857716
+    }
+   ]
+  },
+  {
+   "name": "Ibrahimbaroud/personal-information-detection-german",
+   "params": 109360927,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.9721880672170501,
+     "char_p": 0.9719035354717864,
+     "char_r": 0.9724727656085276,
+     "grascco_leaks": 6,
+     "grascco_leaks_strict": 9,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.14634146341463414,
+     "mdeid_char_f1": 0.7881629570303985,
+     "mdeid_leak_rate": 0.8159203980099502,
+     "mdeid_leak_rate_no_random_ids": 0.664179104477612,
+     "mdeid_strict_typed_f1": 0.30916643589033505
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.9730863334498427,
+     "char_p": 0.9678989454166184,
+     "char_r": 0.9783296239896919,
+     "grascco_leaks": 5,
+     "grascco_leaks_strict": 7,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.12195121951219512,
+     "mdeid_char_f1": 0.8283894396488946,
+     "mdeid_leak_rate": 0.7860696517412935,
+     "mdeid_leak_rate_no_random_ids": 0.5895522388059702,
+     "mdeid_strict_typed_f1": 0.2999791100898266
+    }
+   ]
+  },
+  {
+   "name": "iiiorg/piiranha-v1-detect-personal-information",
+   "params": 278232594,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.42341308378211356,
+     "char_p": 0.8594982078853046,
+     "char_r": 0.2808949279606419,
+     "grascco_leaks": 37,
+     "grascco_leaks_strict": 39,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.9024390243902439,
+     "mdeid_char_f1": 0.5267016227230934,
+     "mdeid_leak_rate": 1.0,
+     "mdeid_leak_rate_no_random_ids": 1.0,
+     "mdeid_strict_typed_f1": 0.25076053889613215
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.524880810488677,
+     "char_p": 0.7208921628811131,
+     "char_r": 0.4126742415368396,
+     "grascco_leaks": 25,
+     "grascco_leaks_strict": 33,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.6097560975609756,
+     "mdeid_char_f1": 0.7045658787990341,
+     "mdeid_leak_rate": 0.9601990049751243,
+     "mdeid_leak_rate_no_random_ids": 0.9502487562189055,
+     "mdeid_strict_typed_f1": 0.2964338781575037
+    }
+   ]
+  },
+  {
+   "name": "StanfordAIMI/stanford-deidentifier-base",
+   "params": 109509933,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6941204475124971,
+     "char_p": 0.5846968238691049,
+     "char_r": 0.8539299519737613,
+     "grascco_leaks": 30,
+     "grascco_leaks_strict": 31,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7317073170731707,
+     "mdeid_char_f1": 0.7025012230444877,
+     "mdeid_leak_rate": 0.7487562189054726,
+     "mdeid_leak_rate_no_random_ids": 0.6368159203980099,
+     "mdeid_strict_typed_f1": 0.13176895306859207
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.6843108981813109,
+     "char_p": 0.5675050146582318,
+     "char_r": 0.8616610050368982,
+     "grascco_leaks": 30,
+     "grascco_leaks_strict": 31,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7317073170731707,
+     "mdeid_char_f1": 0.6958112545783037,
+     "mdeid_leak_rate": 0.7238805970149254,
+     "mdeid_leak_rate_no_random_ids": 0.6069651741293532,
+     "mdeid_strict_typed_f1": 0.12785025974540984
+    }
+   ]
+  },
+  {
+   "name": "obi/deid_roberta_i2b2",
+   "params": 354356783,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.7962297416423679,
+     "char_p": 0.9454106280193236,
+     "char_r": 0.6877123111163173,
+     "grascco_leaks": 31,
+     "grascco_leaks_strict": 37,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7560975609756098,
+     "mdeid_char_f1": 0.7788475616836728,
+     "mdeid_leak_rate": 0.8383084577114428,
+     "mdeid_leak_rate_no_random_ids": 0.7213930348258707,
+     "mdeid_strict_typed_f1": 0.18688323339156715
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.8128851896562679,
+     "char_p": 0.8882254929186337,
+     "char_r": 0.7493264612861661,
+     "grascco_leaks": 26,
+     "grascco_leaks_strict": 33,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.6341463414634146,
+     "mdeid_char_f1": 0.8295142370746951,
+     "mdeid_leak_rate": 0.746268656716418,
+     "mdeid_leak_rate_no_random_ids": 0.5348258706467661,
+     "mdeid_strict_typed_f1": 0.17748826191785458
+    }
+   ]
+  },
+  {
+   "name": "syntriq/tarn-german-pii-large",
+   "params": 334726183,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6038701423316808,
+     "char_p": 0.9513731418493323,
+     "char_r": 0.4423099449455312,
+     "grascco_leaks": 16,
+     "grascco_leaks_strict": 16,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.3902439024390244,
+     "mdeid_char_f1": 0.8389260436367891,
+     "mdeid_leak_rate": 0.7014925373134329,
+     "mdeid_leak_rate_no_random_ids": 0.4079601990049751,
+     "mdeid_strict_typed_f1": 0.35727261717330755
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.6200791986955508,
+     "char_p": 0.9196222938737909,
+     "char_r": 0.46772871031978447,
+     "grascco_leaks": 15,
+     "grascco_leaks_strict": 15,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.36585365853658536,
+     "mdeid_char_f1": 0.8744069045462438,
+     "mdeid_leak_rate": 0.5024875621890548,
+     "mdeid_leak_rate_no_random_ids": 0.2064676616915423,
+     "mdeid_strict_typed_f1": 0.34884256593343316
+    }
+   ]
+  },
+  {
+   "name": "syntriq/tarn-german-pii-base",
+   "params": 125424423,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.5869706840390879,
+     "char_p": 0.962864012823938,
+     "char_r": 0.4221623521143259,
+     "grascco_leaks": 18,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.43902439024390244,
+     "mdeid_char_f1": 0.8116353458616552,
+     "mdeid_leak_rate": 0.7960199004975125,
+     "mdeid_leak_rate_no_random_ids": 0.48756218905472637,
+     "mdeid_strict_typed_f1": 0.3743107769423559
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.6253162615962585,
+     "char_p": 0.9050155348424324,
+     "char_r": 0.47768536956776386,
+     "grascco_leaks": 15,
+     "grascco_leaks_strict": 15,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.36585365853658536,
+     "mdeid_char_f1": 0.8731468236287315,
+     "mdeid_leak_rate": 0.6069651741293532,
+     "mdeid_leak_rate_no_random_ids": 0.22388059701492538,
+     "mdeid_strict_typed_f1": 0.35213537469782435
+    }
+   ]
+  },
+  {
+   "name": "openai/privacy-filter",
+   "params": 1399486865,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6888834235120512,
+     "char_p": 0.7249902937750744,
+     "char_r": 0.6562024130256531,
+     "grascco_leaks": 37,
+     "grascco_leaks_strict": 37,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.9024390243902439,
+     "mdeid_char_f1": 0.7485245704191424,
+     "mdeid_leak_rate": 0.9079601990049752,
+     "mdeid_leak_rate_no_random_ids": 0.835820895522388,
+     "mdeid_strict_typed_f1": 0.2316366961292289
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.6662061479251986,
+     "char_p": 0.5755328218243819,
+     "char_r": 0.7907930186248097,
+     "grascco_leaks": 29,
+     "grascco_leaks_strict": 30,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7073170731707317,
+     "mdeid_char_f1": 0.7996346918599239,
+     "mdeid_leak_rate": 0.7338308457711443,
+     "mdeid_leak_rate_no_random_ids": 0.5870646766169154,
+     "mdeid_strict_typed_f1": 0.2376519548789837
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/privacy-filter-multilingual-v2",
+   "params": 1399604809,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.672859911090847,
+     "char_p": 0.6552336552336553,
+     "char_r": 0.6914607004802624,
+     "grascco_leaks": 31,
+     "grascco_leaks_strict": 34,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7560975609756098,
+     "mdeid_char_f1": 0.8420818484723503,
+     "mdeid_leak_rate": 0.763681592039801,
+     "mdeid_leak_rate_no_random_ids": 0.5024875621890548,
+     "mdeid_strict_typed_f1": 0.3490199883562973
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.6688911133355578,
+     "char_p": 0.6367390153520381,
+     "char_r": 0.7044629260864472,
+     "grascco_leaks": 31,
+     "grascco_leaks_strict": 34,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.7560975609756098,
+     "mdeid_char_f1": 0.8475390156062425,
+     "mdeid_leak_rate": 0.746268656716418,
+     "mdeid_leak_rate_no_random_ids": 0.48507462686567165,
+     "mdeid_strict_typed_f1": 0.3467784180199057
+    }
+   ]
+  },
+  {
+   "name": "urchade/gliner_multi_pii-v1",
+   "params": 288975090,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.7139127191346513,
+     "char_p": 0.6548387096774193,
+     "char_r": 0.7847018859083987,
+     "grascco_leaks": 25,
+     "grascco_leaks_strict": 26,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.6097560975609756,
+     "mdeid_char_f1": 0.7921499071810614,
+     "mdeid_leak_rate": 0.7910447761194029,
+     "mdeid_leak_rate_no_random_ids": 0.6691542288557214,
+     "mdeid_strict_typed_f1": null
+    }
+   ]
+  },
+  {
+   "name": "knowledgator/gliner-pii-large-v1.0",
+   "params": 440257753,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6711297071129707,
+     "char_p": 0.829226262278132,
+     "char_r": 0.5636640506032564,
+     "grascco_leaks": 36,
+     "grascco_leaks_strict": 36,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.8780487804878049,
+     "mdeid_char_f1": 0.740956336649559,
+     "mdeid_leak_rate": 0.8830845771144279,
+     "mdeid_leak_rate_no_random_ids": 0.8208955223880597,
+     "mdeid_strict_typed_f1": null
+    }
+   ]
+  },
+  {
+   "name": "fastino/gliner2-privacy-filter-PII-multi",
+   "params": 307098645,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.7012412612355543,
+     "char_p": 0.8967341725962416,
+     "char_r": 0.575729178868455,
+     "grascco_leaks": 34,
+     "grascco_leaks_strict": 35,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.8292682926829268,
+     "mdeid_char_f1": 0.8137324921636312,
+     "mdeid_leak_rate": 0.7935323383084577,
+     "mdeid_leak_rate_no_random_ids": 0.6442786069651741,
+     "mdeid_strict_typed_f1": null
+    }
+   ]
+  },
+  {
+   "name": "syntriq/tarn-german-pii-gliner-base",
+   "params": 288949504,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.6157250098775188,
+     "char_p": 0.9460903351141331,
+     "char_r": 0.45636640506032566,
+     "grascco_leaks": 18,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.43902439024390244,
+     "mdeid_char_f1": 0.8143188769664546,
+     "mdeid_leak_rate": 0.8009950248756219,
+     "mdeid_leak_rate_no_random_ids": 0.654228855721393,
+     "mdeid_strict_typed_f1": null
+    }
+   ]
+  }
+ ]
+}

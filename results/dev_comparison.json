@@ -1,0 +1,560 @@
+{
+ "title": "German de-identification models on development data: quality against size",
+ "caption": "Development data only (GraSCCo dev: 22 letters; MDeID German train split, half B: 235 notes). Test numbers follow in the final card.",
+ "metrics": {
+  "char_f1": "Character F1, GraSCCo dev (22 letters)",
+  "grascco_leak_rate": "Letters with a leak, GraSCCo dev (22 letters)",
+  "mdeid_leak_rate": "Notes with a leak, MDeID German dev (235 notes)",
+  "mdeid_strict_typed_f1": "Strict typed F1, MDeID German dev (235 notes, 28 categories)",
+  "sparcling_leak_rate": "Letters with a leak, SPARCLING-DE dev (501 letters)"
+ },
+ "source": "development comparison of 20 Nov 2026; every model read through the same decoder",
+ "models": [
+  {
+   "name": "LukasKunhardt/german-clinical-deid",
+   "params": 334705683,
+   "released": true,
+   "rows": [
+    {
+     "setting": "threshold 0.01 (shipped)",
+     "char_f1": 0.97,
+     "char_p": 0.95,
+     "char_r": 0.991,
+     "grascco_leaks": 1,
+     "grascco_leaks_strict": 1,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.045454545454545456,
+     "mdeid_leak_rate": 0.102,
+     "mdeid_leak_rate_no_random_ids": 0.03,
+     "sparcling_leak_rate": 0.04,
+     "mdeid_strict_typed_f1": 0.489
+    }
+   ]
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-base",
+   "params": 307575611,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.809,
+     "char_p": 0.93,
+     "char_r": 0.716,
+     "grascco_leaks": 8,
+     "grascco_leaks_strict": 11,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.36363636363636365,
+     "mdeid_leak_rate": 0.5529999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.302,
+     "sparcling_leak_rate": 0.7090000000000001,
+     "mdeid_strict_typed_f1": 0.393
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.821,
+     "char_p": 0.835,
+     "char_r": 0.808,
+     "grascco_leaks": 4,
+     "grascco_leaks_strict": 6,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.18181818181818182,
+     "mdeid_leak_rate": 0.247,
+     "mdeid_leak_rate_no_random_ids": 0.064,
+     "sparcling_leak_rate": 0.36700000000000005,
+     "mdeid_strict_typed_f1": 0.38
+    }
+   ]
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-small",
+   "params": 140664251,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.797,
+     "char_p": 0.926,
+     "char_r": 0.7,
+     "grascco_leaks": 8,
+     "grascco_leaks_strict": 14,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.36363636363636365,
+     "mdeid_leak_rate": 0.57,
+     "mdeid_leak_rate_no_random_ids": 0.319,
+     "sparcling_leak_rate": 0.8859999999999999,
+     "mdeid_strict_typed_f1": 0.389
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.818,
+     "char_p": 0.84,
+     "char_r": 0.797,
+     "grascco_leaks": 4,
+     "grascco_leaks_strict": 9,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.18181818181818182,
+     "mdeid_leak_rate": 0.251,
+     "mdeid_leak_rate_no_random_ids": 0.081,
+     "sparcling_leak_rate": 0.539,
+     "mdeid_strict_typed_f1": 0.383
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1",
+   "params": 141385834,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.818,
+     "char_p": 0.867,
+     "char_r": 0.775,
+     "grascco_leaks": 12,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.5454545454545454,
+     "mdeid_leak_rate": 0.655,
+     "mdeid_leak_rate_no_random_ids": 0.387,
+     "sparcling_leak_rate": 0.8959999999999999,
+     "mdeid_strict_typed_f1": 0.381
+    },
+    {
+     "setting": "matched threshold 0.3",
+     "char_f1": 0.835,
+     "char_p": 0.832,
+     "char_r": 0.839,
+     "grascco_leaks": 9,
+     "grascco_leaks_strict": 13,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.4090909090909091,
+     "mdeid_leak_rate": 0.37,
+     "mdeid_leak_rate_no_random_ids": 0.17,
+     "sparcling_leak_rate": 0.752,
+     "mdeid_strict_typed_f1": 0.371
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1",
+   "params": 183889996,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.782,
+     "char_p": 0.9,
+     "char_r": 0.691,
+     "grascco_leaks": 9,
+     "grascco_leaks_strict": 14,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.4090909090909091,
+     "mdeid_leak_rate": 0.638,
+     "mdeid_leak_rate_no_random_ids": 0.532,
+     "sparcling_leak_rate": 0.8320000000000001,
+     "mdeid_strict_typed_f1": 0.268
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.802,
+     "char_p": 0.877,
+     "char_r": 0.739,
+     "grascco_leaks": 9,
+     "grascco_leaks_strict": 14,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.4090909090909091,
+     "mdeid_leak_rate": 0.43799999999999994,
+     "mdeid_leak_rate_no_random_ids": 0.34,
+     "sparcling_leak_rate": 0.774,
+     "mdeid_strict_typed_f1": 0.269
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1",
+   "params": 148127308,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.684,
+     "char_p": 0.717,
+     "char_r": 0.654,
+     "grascco_leaks": 16,
+     "grascco_leaks_strict": 17,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7272727272727273,
+     "mdeid_leak_rate": 0.698,
+     "mdeid_leak_rate_no_random_ids": 0.621,
+     "sparcling_leak_rate": 0.97,
+     "mdeid_strict_typed_f1": 0.233
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.692,
+     "char_p": 0.698,
+     "char_r": 0.687,
+     "grascco_leaks": 16,
+     "grascco_leaks_strict": 17,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7272727272727273,
+     "mdeid_leak_rate": 0.677,
+     "mdeid_leak_rate_no_random_ids": 0.6,
+     "sparcling_leak_rate": 0.966,
+     "mdeid_strict_typed_f1": 0.242
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1",
+   "params": 334170188,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.501,
+     "char_p": 0.549,
+     "char_r": 0.461,
+     "grascco_leaks": 20,
+     "grascco_leaks_strict": 22,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.9090909090909091,
+     "mdeid_leak_rate": 0.987,
+     "mdeid_leak_rate_no_random_ids": 0.9740000000000001,
+     "sparcling_leak_rate": 1.0,
+     "mdeid_strict_typed_f1": 0.051
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.456,
+     "char_p": 0.349,
+     "char_r": 0.657,
+     "grascco_leaks": 18,
+     "grascco_leaks_strict": 20,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.8181818181818182,
+     "mdeid_leak_rate": 0.787,
+     "mdeid_leak_rate_no_random_ids": 0.706,
+     "sparcling_leak_rate": 0.992,
+     "mdeid_strict_typed_f1": 0.093
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1",
+   "params": 108950092,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.582,
+     "char_p": 0.85,
+     "char_r": 0.443,
+     "grascco_leaks": 20,
+     "grascco_leaks_strict": 21,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.9090909090909091,
+     "mdeid_leak_rate": 0.889,
+     "mdeid_leak_rate_no_random_ids": 0.8640000000000001,
+     "sparcling_leak_rate": 1.0,
+     "mdeid_strict_typed_f1": 0.115
+    },
+    {
+     "setting": "matched threshold 0.3",
+     "char_f1": 0.617,
+     "char_p": 0.675,
+     "char_r": 0.569,
+     "grascco_leaks": 19,
+     "grascco_leaks_strict": 21,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.8636363636363636,
+     "mdeid_leak_rate": 0.838,
+     "mdeid_leak_rate_no_random_ids": 0.7909999999999999,
+     "sparcling_leak_rate": 1.0,
+     "mdeid_strict_typed_f1": 0.117
+    }
+   ]
+  },
+  {
+   "name": "Ibrahimbaroud/personal-information-detection-german",
+   "params": 109360927,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.965,
+     "char_p": 0.968,
+     "char_r": 0.962,
+     "grascco_leaks": 4,
+     "grascco_leaks_strict": 6,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.18181818181818182,
+     "mdeid_leak_rate": 0.7659999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.66,
+     "sparcling_leak_rate": 0.645,
+     "mdeid_strict_typed_f1": 0.319
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.969,
+     "char_p": 0.964,
+     "char_r": 0.974,
+     "grascco_leaks": 4,
+     "grascco_leaks_strict": 5,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.18181818181818182,
+     "mdeid_leak_rate": 0.706,
+     "mdeid_leak_rate_no_random_ids": 0.545,
+     "sparcling_leak_rate": 0.547,
+     "mdeid_strict_typed_f1": 0.308
+    }
+   ]
+  },
+  {
+   "name": "iiiorg/piiranha-v1-detect-personal-information",
+   "params": 278232594,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.441,
+     "char_p": 0.85,
+     "char_r": 0.298,
+     "grascco_leaks": 22,
+     "grascco_leaks_strict": 22,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 1.0,
+     "mdeid_leak_rate": 1.0,
+     "mdeid_leak_rate_no_random_ids": 1.0,
+     "sparcling_leak_rate": 1.0,
+     "mdeid_strict_typed_f1": 0.244
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.56,
+     "char_p": 0.757,
+     "char_r": 0.444,
+     "grascco_leaks": 14,
+     "grascco_leaks_strict": 19,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.6363636363636364,
+     "mdeid_leak_rate": 0.9620000000000001,
+     "mdeid_leak_rate_no_random_ids": 0.945,
+     "sparcling_leak_rate": 1.0,
+     "mdeid_strict_typed_f1": 0.295
+    }
+   ]
+  },
+  {
+   "name": "StanfordAIMI/stanford-deidentifier-base",
+   "params": 109509933,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.708,
+     "char_p": 0.603,
+     "char_r": 0.86,
+     "grascco_leaks": 19,
+     "grascco_leaks_strict": 20,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.8636363636363636,
+     "mdeid_leak_rate": 0.7190000000000001,
+     "mdeid_leak_rate_no_random_ids": 0.638,
+     "sparcling_leak_rate": 0.966,
+     "mdeid_strict_typed_f1": 0.13
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.698,
+     "char_p": 0.584,
+     "char_r": 0.868,
+     "grascco_leaks": 19,
+     "grascco_leaks_strict": 20,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.8636363636363636,
+     "mdeid_leak_rate": 0.706,
+     "mdeid_leak_rate_no_random_ids": 0.621,
+     "sparcling_leak_rate": 0.9440000000000001,
+     "mdeid_strict_typed_f1": 0.125
+    }
+   ]
+  },
+  {
+   "name": "obi/deid_roberta_i2b2",
+   "params": 354356783,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.761,
+     "char_p": 0.938,
+     "char_r": 0.64,
+     "grascco_leaks": 16,
+     "grascco_leaks_strict": 19,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7272727272727273,
+     "mdeid_leak_rate": 0.7659999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.6809999999999999,
+     "sparcling_leak_rate": 0.9640000000000001,
+     "mdeid_strict_typed_f1": 0.209
+    },
+    {
+     "setting": "matched threshold 0.1",
+     "char_f1": 0.8,
+     "char_p": 0.892,
+     "char_r": 0.726,
+     "grascco_leaks": 15,
+     "grascco_leaks_strict": 16,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.6818181818181818,
+     "mdeid_leak_rate": 0.685,
+     "mdeid_leak_rate_no_random_ids": 0.46799999999999997,
+     "sparcling_leak_rate": 0.884,
+     "mdeid_strict_typed_f1": 0.199
+    }
+   ]
+  },
+  {
+   "name": "syntriq/tarn-german-pii-large",
+   "params": 334726183,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.658,
+     "char_p": 0.981,
+     "char_r": 0.495,
+     "grascco_leaks": 8,
+     "grascco_leaks_strict": 8,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.36363636363636365,
+     "mdeid_leak_rate": 0.6679999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.40399999999999997,
+     "sparcling_leak_rate": 0.998,
+     "mdeid_strict_typed_f1": 0.369
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.684,
+     "char_p": 0.956,
+     "char_r": 0.533,
+     "grascco_leaks": 7,
+     "grascco_leaks_strict": 7,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.3181818181818182,
+     "mdeid_leak_rate": 0.46399999999999997,
+     "mdeid_leak_rate_no_random_ids": 0.221,
+     "sparcling_leak_rate": 0.996,
+     "mdeid_strict_typed_f1": 0.361
+    }
+   ]
+  },
+  {
+   "name": "syntriq/tarn-german-pii-base",
+   "params": 125424423,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.65,
+     "char_p": 0.971,
+     "char_r": 0.489,
+     "grascco_leaks": 8,
+     "grascco_leaks_strict": 8,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.36363636363636365,
+     "mdeid_leak_rate": 0.7490000000000001,
+     "mdeid_leak_rate_no_random_ids": 0.44299999999999995,
+     "sparcling_leak_rate": 0.998,
+     "mdeid_strict_typed_f1": 0.384
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.695,
+     "char_p": 0.951,
+     "char_r": 0.547,
+     "grascco_leaks": 7,
+     "grascco_leaks_strict": 7,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.3181818181818182,
+     "mdeid_leak_rate": 0.5529999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.196,
+     "sparcling_leak_rate": 0.9940000000000001,
+     "mdeid_strict_typed_f1": 0.364
+    }
+   ]
+  },
+  {
+   "name": "openai/privacy-filter",
+   "params": 1399486865,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.626,
+     "char_p": 0.635,
+     "char_r": 0.617,
+     "grascco_leaks": 19,
+     "grascco_leaks_strict": 19,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.8636363636363636,
+     "mdeid_leak_rate": 0.9059999999999999,
+     "mdeid_leak_rate_no_random_ids": 0.821,
+     "sparcling_leak_rate": 0.988,
+     "mdeid_strict_typed_f1": 0.252
+    },
+    {
+     "setting": "matched threshold 0.01",
+     "char_f1": 0.643,
+     "char_p": 0.556,
+     "char_r": 0.761,
+     "grascco_leaks": 17,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7727272727272727,
+     "mdeid_leak_rate": 0.715,
+     "mdeid_leak_rate_no_random_ids": 0.5870000000000001,
+     "sparcling_leak_rate": 0.9359999999999999,
+     "mdeid_strict_typed_f1": 0.255
+    }
+   ]
+  },
+  {
+   "name": "OpenMed/privacy-filter-multilingual-v2",
+   "params": 1399604809,
+   "released": false,
+   "rows": [
+    {
+     "setting": "default",
+     "char_f1": 0.651,
+     "char_p": 0.638,
+     "char_r": 0.664,
+     "grascco_leaks": 17,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7727272727272727,
+     "mdeid_leak_rate": 0.728,
+     "mdeid_leak_rate_no_random_ids": 0.46799999999999997,
+     "sparcling_leak_rate": 0.9059999999999999,
+     "mdeid_strict_typed_f1": 0.369
+    },
+    {
+     "setting": "matched threshold 0.5",
+     "char_f1": 0.645,
+     "char_p": 0.617,
+     "char_r": 0.676,
+     "grascco_leaks": 16,
+     "grascco_leaks_strict": 18,
+     "grascco_docs": 22,
+     "grascco_leak_rate": 0.7272727272727273,
+     "mdeid_leak_rate": 0.715,
+     "mdeid_leak_rate_no_random_ids": 0.44299999999999995,
+     "sparcling_leak_rate": 0.894,
+     "mdeid_strict_typed_f1": 0.364
+    }
+   ]
+  }
+ ]
+}

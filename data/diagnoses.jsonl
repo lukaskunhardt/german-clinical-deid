@@ -1,0 +1,569 @@
+{"fach": "Kardiologie", "icd": "I21.0", "text": "ST-Hebungs-Myokardinfarkt der Vorderwand, akute Phase", "alter": [45, 75], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I21.4", "text": "Nicht-ST-Hebungs-Myokardinfarkt (NSTEMI)", "alter": [50, 80], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I20.0", "text": "Instabile Angina pectoris, akute Episode", "alter": [55, 85], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I25.10", "text": "Chronische ischämische Herzkrankheit, stabile Angina pectoris, CCS-Stadium II", "alter": [60, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I50.1", "text": "Herzinsuffizienz, systolisch, NYHA II‑III", "alter": [65, 90], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I50.31", "text": "Herzinsuffizienz, diastolisch, NYHA I‑II", "alter": [55, 85], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I48.1", "text": "Vorhofflimmern, persistierend, unbehandelt", "alter": [60, 90], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I48.0", "text": "Vorhofflimmern, paroxysmal, erstmalig diagnostiziert", "alter": [45, 80], "geschlecht": "beide", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I47.1", "text": "Supraventrikuläre Tachykardie, AVNRT, akut", "alter": [20, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I48.3", "text": "Vorhofflattern, persistierend", "alter": [50, 80], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "Q21.0", "text": "Ventrikelseptumdefekt (VSD), klein, erwachsen", "alter": [25, 65], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I42.1", "text": "Hypertrophe Kardiomyopathie, obstruktiv, NYHA II", "alter": [20, 60], "geschlecht": "beide", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I30.0", "text": "Akute virale Perikarditis, exanthematisch", "alter": [15, 50], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I31.9", "text": "Chronische Perikarditis, idiopathisch, mit perikardialem Erguss", "alter": [40, 80], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I33.9", "text": "Subakute bakterielle Endokarditis, Streptococcus sanguinis", "alter": [35, 80], "geschlecht": "beide", "tage": [12, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I35.1", "text": "Aortenklappeninsuffizienz, moderat, asymptomatisch", "alter": [55, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I34.0", "text": "Mitralklappeninsuffizienz, leichtgradig, funktionell", "alter": [40, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Kardiologie", "icd": "I26.9", "text": "Pulmonalembolie, segmental, ambulant behandelt", "alter": [25, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K21.0", "text": "Refluxösophagitis, erosiv, Los-Angst-Stufe II", "alter": [20, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K70.3", "text": "Alkoholische Leberzirrhose, Child‑Pugh B", "alter": [45, 70], "geschlecht": "m", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K58.0", "text": "Reizdarmsyndrom, durchfalldominant, nach Rom‑Kriterien", "alter": [18, 55], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K58.1", "text": "Reizdarmsyndrom, verstopfungdominant, nach Rom‑Kriterien", "alter": [18, 55], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K85.0", "text": "Akute interstitielle Pankreatitis, leichtgradig", "alter": [30, 65], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K85.1", "text": "Akute nekrotisierende Pankreatitis, nach Balthazar C", "alter": [35, 70], "geschlecht": "m", "tage": [7, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K86.0", "text": "Chronische alkoholische Pankreatitis, exokriner Insuffizienz", "alter": [40, 75], "geschlecht": "m", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K57.30", "text": "Divertikulitis des Sigmas, unkompliziert", "alter": [55, 85], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K57.32", "text": "Divertikulitis des Sigmas, mit Perforation und Abszessbildung", "alter": [60, 90], "geschlecht": "beide", "tage": [10, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K57.90", "text": "Divertikulose, nicht näher bezeichnet", "alter": [50, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K73.0", "text": "Chronische nichtalkoholische Hepatitis, F0‑F1 Fibrose", "alter": [30, 65], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K74.6", "text": "Leberzirrhose, nicht näher bezeichnet, Child‑Pugh A", "alter": [45, 75], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K31.84", "text": "Eosinophile Gastritis, schwergradig, mit Dysphagie", "alter": [15, 45], "geschlecht": "w", "tage": [1, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K59.0", "text": "Obstipation, chronisch, therapieresistent", "alter": [25, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K90.0", "text": "Zöliakie, manifest, mit Malabsorption", "alter": [5, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K90.2", "text": "Morbus Crohn, Ileum, L4‑L5, B2‑B3", "alter": [15, 55], "geschlecht": "beide", "tage": [5, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K50.90", "text": "Colitis ulcerosa, nicht näher bezeichnet, Extent proctosigmoidalis", "alter": [10, 60], "geschlecht": "w", "tage": [4, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K63.5", "text": "Benignes Kolonpolyp, tubulär, 1‑2 cm", "alter": [45, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K51.0", "text": "Colitis ulcerosa, proktitis, mild", "alter": [12, 55], "geschlecht": "w", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K52.9", "text": "Nichtinfektiöse Gastroenteritis, nicht näher bezeichnet, post‑infektiös", "alter": [1, 80], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K73.9", "text": "Lebererkrankung, nicht näher bezeichnet, unspezifisch", "alter": [30, 75], "geschlecht": "beide", "tage": [1, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K25.0", "text": "Akutes Magenulcus, perforiert, S1‑S2", "alter": [40, 80], "geschlecht": "beide", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K26.0", "text": "Akutes Zwölffingerdarmulcus, perforiert, S1‑S2", "alter": [35, 75], "geschlecht": "beide", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K31.0", "text": "Akute Gastritis, erosiv, NSAID‑assoziiert", "alter": [20, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K57.20", "text": "Divertikulitis, nicht näher bezeichnet, unkompliziert", "alter": [55, 85], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K75.0", "text": "Akute virale Hepatitis, A‑Typ, Ikterusgrad I", "alter": [5, 60], "geschlecht": "beide", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K76.0", "text": "Nichtalkoholische Fettleber (NAFLD), Steatose, Grad 2", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gastroenterologie", "icd": "K77.9", "text": "Sonstige Krankheiten der Leber, nicht näher bezeichnet, post‑transplantativ", "alter": [18, 65], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J44.0", "text": "COPD, akute Exazerbation, GOLD Stadium III", "alter": [55, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J45.9", "text": "Asthma bronchiale, nicht näher bezeichnet, akuter Schub", "alter": [5, 50], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J18.9", "text": "Pneumonie, nicht näher bezeichnet, unspezifischer Erreger", "alter": [20, 85], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J12.9", "text": "Virale Pneumonie, nicht näher bezeichnet", "alter": [15, 80], "geschlecht": "beide", "tage": [4, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "A15.0", "text": "Tuberkulose der Lunge, bakteriologisch gesichert", "alter": [18, 70], "geschlecht": "beide", "tage": [30, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "C34.1", "text": "Karzinom der Lunge, nicht kleinzellig, obere Lappen", "alter": [45, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "I26.0", "text": "Lungenembolie mit akuter Rechtsherzbelastung", "alter": [30, 80], "geschlecht": "beide", "tage": [5, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J84.1", "text": "Interstitiales Lungengewebe, nicht näher bezeichnet (IPF)", "alter": [50, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "D86.0", "text": "Sarcoidose der Lunge, Stadium II", "alter": [20, 60], "geschlecht": "beide", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "E84.0", "text": "Mukoviszidose, pulmonale Manifestation", "alter": [5, 30], "geschlecht": "beide", "tage": [8, 15], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J93.9", "text": "Spontaner Pneumothorax, nicht näher bezeichnet", "alter": [18, 45], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "I27.0", "text": "Primäre pulmonale Hypertonie, idiopathisch", "alter": [20, 70], "geschlecht": "w", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J80", "text": "Akutes Atemnotsyndrom (ARDS) sekundär zu Sepsis", "alter": [25, 75], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J84.10", "text": "Lungenfibrose, nicht genauer spezifiziert", "alter": [45, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J44.1", "text": "COPD mit akuter Bronchitis", "alter": [55, 85], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "A31.0", "text": "Mycobacterium avium complex (MAC) Lungenerkrankung", "alter": [30, 80], "geschlecht": "beide", "tage": [20, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "U07.1", "text": "COVID-19, virusidentifiziert, Pneumonie", "alter": [20, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J90", "text": "Pleuraerguss, exsudativ, nicht näher bezeichnet", "alter": [40, 85], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J81.0", "text": "Pulmonales Ödem, nicht kardiogen", "alter": [25, 80], "geschlecht": "beide", "tage": [5, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J20.9", "text": "Akute Bronchitis, nicht näher bezeichnet", "alter": [5, 80], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J42", "text": "Chronische Bronchitis, nicht näher bezeichnet", "alter": [40, 80], "geschlecht": "beide", "tage": [5, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "G47.33", "text": "Obstruktives Schlafapnoe-Syndrom, moderat", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "D86.1", "text": "Sarcoidose der mediastinalen Lymphknoten", "alter": [20, 60], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J84.2", "text": "Lymphangioleiomyomatose (LAM)", "alter": [20, 45], "geschlecht": "w", "tage": [5, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J84.0", "text": "Pulmonale alveoläre Proteinosis", "alter": [30, 70], "geschlecht": "beide", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J60", "text": "Kohlenstaubpneumokoniose (Berufskrankheit)", "alter": [40, 80], "geschlecht": "m", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J44.9", "text": "Chronisch obstruktive Lungenerkrankung, nicht näher bezeichnet", "alter": [50, 85], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J96.0", "text": "Akutes Atemversagen, hypoxisch", "alter": [30, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pneumologie", "icd": "J98.4", "text": "Bronchiolitis obliterans, nach inhalativem Schadstoff", "alter": [20, 60], "geschlecht": "beide", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N17.0", "text": "Akutes Nierenversagen, prärenal", "alter": [45, 85], "geschlecht": "beide", "tage": [3, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N17.9", "text": "Akutes Nierenversagen, nicht näher bezeichnet", "alter": [18, 90], "geschlecht": "beide", "tage": [2, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.1", "text": "Chronische Niereninsuffizienz Stadium 1 (GFR ≥ 90 ml/min/1,73 m²)", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.2", "text": "Chronische Niereninsuffizienz Stadium 2 (GFR 60‑89 ml/min/1,73 m²)", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.3", "text": "Chronische Niereninsuffizienz Stadium 3 (GFR 30‑59 ml/min/1,73 m²)", "alter": [35, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.4", "text": "Chronische Niereninsuffizienz Stadium 4 (GFR 15‑29 ml/min/1,73 m²)", "alter": [40, 90], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.5", "text": "Chronische Niereninsuffizienz Stadium 5 (end‑stage renal disease)", "alter": [20, 90], "geschlecht": "beide", "tage": [5, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N20.0", "text": "Nierenkolik durch Calciumoxalat‑Stein", "alter": [20, 70], "geschlecht": "beide", "tage": [1, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N21.0", "text": "Nierenstein, Kalziumphosphat (Stau‑Stein)", "alter": [25, 75], "geschlecht": "beide", "tage": [1, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N22.1", "text": "Urikostein (Struvit) bei wiederholter Infektion", "alter": [30, 80], "geschlecht": "beide", "tage": [2, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N23.9", "text": "Hämaturie, nicht näher bezeichnet", "alter": [10, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N25.0", "text": "Phosphatretentionssyndrom bei CKD", "alter": [40, 90], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N25.4", "text": "Renale Osteodystrophie, sekundär", "alter": [35, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N26.9", "text": "Tubulointerstitielle Nephropathie, nicht näher bezeichnet", "alter": [20, 80], "geschlecht": "beide", "tage": [3, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N27.0", "text": "Akute tubuläre Nekrose (ATN) durch Nephrotoxine", "alter": [18, 85], "geschlecht": "beide", "tage": [4, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N27.1", "text": "Medikamenteninduzierte tubulointerstitielle Nephropathie", "alter": [25, 80], "geschlecht": "beide", "tage": [3, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N28.0", "text": "Chronische Pyelonephritis", "alter": [30, 80], "geschlecht": "beide", "tage": [5, 15], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N28.1", "text": "Chronische interstitielle Nephritis", "alter": [35, 85], "geschlecht": "beide", "tage": [6, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N00.0", "text": "Akute proliferative Glomerulonephritis, postinfektiös", "alter": [5, 45], "geschlecht": "beide", "tage": [5, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N02.1", "text": "Mesangiell- proliferative Glomerulonephritis, IgA‑Nierenkrankheit", "alter": [10, 60], "geschlecht": "beide", "tage": [4, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N04.9", "text": "Vaskuläre (ANCA‑assoziierte) Glomerulonephritis, nicht näher bezeichnet", "alter": [20, 75], "geschlecht": "beide", "tage": [6, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N05.9", "text": "Minimal‑change-Krankheit (MCD)", "alter": [5, 50], "geschlecht": "beide", "tage": [3, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N06.0", "text": "Fokal segmentale Glomerulosklerose (FSGS)", "alter": [15, 65], "geschlecht": "beide", "tage": [5, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N07.9", "text": "Alport‑Syndrom, renale Manifestation", "alter": [5, 45], "geschlecht": "m", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N10.0", "text": "Akute interstitielle Nephritis, bakterielle Ursache", "alter": [20, 80], "geschlecht": "beide", "tage": [4, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N11.0", "text": "Chronische interstitielle Nephritis, tubulär", "alter": [30, 85], "geschlecht": "beide", "tage": [6, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N13.2", "text": "Ureteropelvine Obstruktion, hydronephrotisch", "alter": [0, 90], "geschlecht": "beide", "tage": [3, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N14.0", "text": "Tubuläre Atrophie bei Diabetes mellitus", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N15.1", "text": "Nierenparenchymveränderungen durch Hypertonie", "alter": [35, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N17.8", "text": "Akutes Nierenversagen, oligurisch, nach Operation", "alter": [18, 85], "geschlecht": "beide", "tage": [5, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N18.6", "text": "Nierenversagen nach Nierentransplantation (Graft‑Versagen)", "alter": [20, 70], "geschlecht": "beide", "tage": [7, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Nephrologie", "icd": "N19", "text": "Nierenerkrankung, nicht näher bezeichnet", "alter": [0, 90], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C92.0", "text": "Akute myeloische Leukämie (AML), FAB M2, Erstdiagnose", "alter": [45, 80], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C91.0", "text": "Akute lymphoblastische Leukämie (ALL) im Erwachsenenalter, B‑Zell‑Typ, Erstdiagnose", "alter": [18, 40], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C92.1", "text": "Chronische myeloische Leukämie (CML), BCR‑ABL‑positiv, Chronic‑Phase", "alter": [30, 70], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C91.1", "text": "Chronische lymphatische Leukämie (CLL), Rai‑Stadium II, asymptomatisch", "alter": [55, 85], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C90.0", "text": "Multiples Myelom, ISS‑Stadium II, neu diagnostiziert", "alter": [55, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C81.9", "text": "Hodgkin‑Lymphom, klassisch, Stadium II, mediastinale Lymphknoten", "alter": [15, 40], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C83.3", "text": "Diffus großzelliges B‑Zell‑Lymphom (DLBCL), Stadium IV, extranodale Manifestation", "alter": [50, 75], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C82.0", "text": "Follikuläres Lymphom, Grad 1‑2, Stadium III", "alter": [60, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C84.2", "text": "Mantel‑Zell‑Lymphom, indolenter Verlauf, Stadium II", "alter": [55, 70], "geschlecht": "m", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "D46.9", "text": "Myelodysplastisches Syndrom (MDS) mit multilinearer Dysplasie, RAEB‑2", "alter": [65, 85], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "D45.0", "text": "Polycythaemia vera, WHO‑Kriterium erfüllt, symptomatisch", "alter": [45, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "D47.3", "text": "Essentielle Thrombozythämie, JAK2‑mutiert, moderat erhöhtes Thrombozyten‑Level", "alter": [40, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "D47.1", "text": "Primäre Myelofibrose, mittleres Risiko, splenomegal", "alter": [55, 75], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C92.0", "text": "Akute promyelozytische Leukämie (APL, FAB M3), PML‑RARA‑Fusion, Erstdiagnose", "alter": [20, 50], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C94.0", "text": "Chronische eosinophile Leukämie, FIP1L1‑PDGFRA‑positiv, symptomatisch", "alter": [30, 60], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C83.6", "text": "Burkitt‑Lymphom, extranodale Manifestation, Erwachsenen‑Typ, Stage III", "alter": [5, 30], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C91.5", "text": "Adultes T‑Zell‑Leukämie/Lymphom (ATLL), HTLV‑1‑assoziiert, aggressiver Verlauf", "alter": [30, 60], "geschlecht": "m", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C50.9", "text": "Invasives duktales Mammakarzinom, pT2 pN0 M0, Stadium IIA", "alter": [40, 70], "geschlecht": "w", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C34.1", "text": "Nichtkleinzelliges Lungenkarzinom, Adenokarzinom, pT3 pN2 M0, Stadium IIIA", "alter": [55, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C18.7", "text": "Sigmoid‑Kolonkarzinom, pT3 pN1 M0, Stadium II", "alter": [55, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C25.9", "text": "Pankreaskarzinom, duktales Adenokarzinom, pT4 pN2 M1, Stadium IV", "alter": [60, 80], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C61", "text": "Prostatakarzinom, Gleason‑Score 7 (3+4), pT2c N0 M0, Stadium II", "alter": [60, 85], "geschlecht": "m", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C56.9", "text": "Ovarialkarzinom, hochgradiges seröses Karzinom, pT2 pN1 M0, Stadium III", "alter": [45, 70], "geschlecht": "w", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C62.1", "text": "Testikuläres Seminom, pT1 N0 M0, Stadium I", "alter": [15, 35], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C64.9", "text": "Nierenzellkarzinom, klarzellig, pT3 pN0 M0, Stadium III", "alter": [55, 80], "geschlecht": "beide", "tage": [7, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C16.9", "text": "Magenkarzinom, intestinaler Typ, pT2 pN1 M0, Stadium III", "alter": [55, 80], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C43.9", "text": "Kutanes malignes Melanom, Breslow‑Tiefe 2,5 mm, Stadium IIIB", "alter": [30, 80], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C81.0", "text": "Hodgkin‑Lymphom, nodulär-sarkoid, Stadium I, mediastinale Lymphknoten", "alter": [15, 30], "geschlecht": "w", "tage": [5, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C91.0", "text": "Akute lymphoblastische Leukämie (ALL) im Kindesalter, B‑Zell‑Typ, Erstdiagnose", "alter": [0, 15], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Hämatologie und Onkologie", "icd": "C93.1", "text": "Chronische myelomonozytäre Leukämie (CMML), dysplastisch, Stadium 2", "alter": [60, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E10.9", "text": "Typ-1-Diabetes mellitus ohne Komplikationen", "alter": [10, 30], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E10.65", "text": "Typ-1-Diabetes mellitus mit Ketoazidose", "alter": [15, 45], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E11.9", "text": "Typ-2-Diabetes mellitus ohne Komplikationen", "alter": [40, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E11.21", "text": "Typ-2-Diabetes mellitus mit diabetischer Nephropathie", "alter": [50, 80], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E11.65", "text": "Typ-2-Diabetes mellitus mit diabetischer Fußulzeration", "alter": [55, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E13.2", "text": "Andere spezifizierte Diabetesformen mit Ketoazidose", "alter": [20, 60], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E15.0", "text": "Hypoglykämisches Koma", "alter": [30, 80], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E16.2", "text": "Hypoglykämische Krise", "alter": [30, 80], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E24.0", "text": "Cushing-Syndrom (endogen)", "alter": [30, 60], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E24.1", "text": "Iatrogenes Cushing-Syndrom (Glukokortikoid-induziert)", "alter": [20, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E23.0", "text": "Primärer Hyperaldosteronismus (Conn-Syndrom)", "alter": [30, 60], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E23.2", "text": "Liddle-Syndrom (pseudohyperaldosteronischer Hypertonus)", "alter": [10, 30], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E27.1", "text": "Primäre Nebennierenrindeninsuffizienz (Addison-Krankheit)", "alter": [20, 60], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E27.2", "text": "Nebennierenrindenhyperplasie (nicht klassifiziert)", "alter": [0, 30], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E34.0", "text": "Hypophysäre Insuffizienz (hypogonadotrop)", "alter": [20, 70], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E34.2", "text": "Hypopituitarismus (multiple Hormondefizite)", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E35.0", "text": "Kraniozerebrale Hypophyseninsuffizienz", "alter": [0, 18], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E03.9", "text": "Hypothyreose, nicht näher bezeichnet", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E05.0", "text": "Morbus Basedow (Graves-Krankheit) mit exophthalmischer Manifestation", "alter": [20, 50], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E06.3", "text": "Hashimoto-Thyreoiditis (chronisch)", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E07.0", "text": "Schilddrüsenautonomie (toxisches Adenom)", "alter": [40, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E20.0", "text": "Postoperatives Hypoparathyreoidismus", "alter": [20, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E21.3", "text": "Primärer Hyperparathyreoidismus", "alter": [40, 80], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E23.5", "text": "Adrenogenitales Syndrom (21‑Hydroxylase‑Defizienz)", "alter": [0, 18], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E70.0", "text": "Phenylketonurie", "alter": [0, 12], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E71.0", "text": "Mitochondriale Enzephalomyopathie mit Diabetes (MELAS)", "alter": [5, 40], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E66.2", "text": "Morbus Prader‑Willi", "alter": [0, 25], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E88.0", "text": "Glykogenose Typ I (von Gierke) – Hepatomegalie, schwere Hypoglykämie", "alter": [0, 5], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E88.1", "text": "Glykogenose Typ II (Pompe) – kardiale und muskuloskelettale Beteiligung", "alter": [0, 30], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Endokrinologie und Diabetologie", "icd": "E28.2", "text": "Polyzystisches Ovarialsyndrom (PCOS)", "alter": [15, 35], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I63.9", "text": "Ischämischer Schlaganfall, nicht näher bezeichnet, linksseitig", "alter": [65, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I61.9", "text": "Intrazerebrale Blutung, nicht näher bezeichnet, akut", "alter": [55, 80], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I60.9", "text": "Subarachnoidalblutung, nicht näher bezeichnet, akuter Beginn", "alter": [40, 60], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G45.9", "text": "Transitorische ischämische Attacke (TIA), nicht näher spezifiziert", "alter": [55, 75], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G35", "text": "Multiple Sklerose, schubförmig-remittierend, chronisch", "alter": [20, 45], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G20", "text": "Parkinson-Krankheit, idiopathisch, Stadium II", "alter": [60, 80], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G12.21", "text": "Amyotrophe Lateralsklerose (ALS), progressiv, sporadisch", "alter": [40, 70], "geschlecht": "beide", "tage": [5, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G40.2", "text": "Epilepsie, fokale Anfälle, medikamentenresistent", "alter": [15, 50], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G43.1", "text": "Migräne mit Aura, episodisch", "alter": [15, 45], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G44.2", "text": "Spannungskopfschmerz, chronisch", "alter": [20, 60], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G44.0", "text": "Clusterkopfschmerz, episodisch, rechtsseitig", "alter": [20, 50], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G36.0", "text": "Neuromyelitis optica, akuter Schub", "alter": [30, 55], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G61.0", "text": "Guillain-Barré-Syndrom, akuter demyelinisierender Polyneuropathie", "alter": [20, 60], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G70.0", "text": "Myasthenia gravis, generalisiert, myasthenische Krise", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G50.0", "text": "Trigeminusneuralgie, einseitig, episodisch", "alter": [40, 70], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G51.0", "text": "Fazialisparese idiopathisch (Bell's palsy), einseitig", "alter": [30, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "C71.9", "text": "Glioblastoma multiforme, WHO Grad IV, supratentoriell", "alter": [50, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "A39.0", "text": "Bakterielle Meningitis, nicht näher spezifiziert, akut", "alter": [0, 80], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "A86.0", "text": "Herpes-simplex-Enzephalitis, akut", "alter": [20, 60], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "E11.40", "text": "Diabetische Polyneuropathie, chronisch, schmerzhaft", "alter": [40, 70], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G25.81", "text": "Restless-Legs-Syndrom, primär, chronisch", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I67.5", "text": "Zerebrale Amyloidangiopathie, symptomatisch, lobär", "alter": [70, 90], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "E53.0", "text": "Vitamin-B12-Mangel, periphere Neuropathie, chronisch", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I63.3", "text": "Ischämischer Schlaganfall, kardial bedingt, linksseitig", "alter": [60, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "I63.5", "text": "Ischämischer Hirninfarkt, posterior, akut", "alter": [55, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G10", "text": "Morbus Huntington, manifest, choreisch", "alter": [20, 50], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "F02.0", "text": "Frontotemporale Demenz, frontale Variante, chronisch", "alter": [55, 75], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G30.0", "text": "Alzheimer-Krankheit, früher Beginn (<65 Jahre), schleichend", "alter": [55, 70], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "G11.0", "text": "Zerebelläre Ataxie, sporadisch, nicht genetisch", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurologie", "icd": "A17.0", "text": "Tuberkulöse Meningitis, akuter Verlauf", "alter": [0, 50], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K35.80", "text": "Akute Appendizitis ohne Perforation", "alter": [15, 45], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K35.2", "text": "Perforierte Appendizitis mit lokaler Peritonitis", "alter": [10, 50], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K80.20", "text": "Gallensteine (unkompliziert) ohne Cholezystitis", "alter": [30, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K81.0", "text": "Akute unkomplizierte Cholezystitis", "alter": [25, 75], "geschlecht": "beide", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K80.5", "text": "Choledocholithiasis (Gallenwegstein) mit Cholestase", "alter": [35, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K57.30", "text": "Divertikulitis des Sigma, unkompliziert", "alter": [40, 85], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K57.32", "text": "Divertikulitis des Sigma mit Perforation und Abszess", "alter": [45, 90], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K40.90", "text": "Inguinale Hernie, unilateral, nicht stranguliert", "alter": [20, 80], "geschlecht": "m", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K41.9", "text": "Femorale Hernie, nicht stranguliert", "alter": [30, 85], "geschlecht": "w", "tage": [1, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K44.9", "text": "Ventrale (epigastrische) Hernie, nicht stranguliert", "alter": [25, 75], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "C18.7", "text": "Mikroskopisch gesichertes Adenokarzinom des Sigma, Stadium II", "alter": [55, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "C20", "text": "Rektumkarzinom, lokal fortgeschritten (T3N0M0)", "alter": [60, 90], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K85.9", "text": "Akute Pankreatitis, nicht komplikationsbedingt", "alter": [30, 70], "geschlecht": "beide", "tage": [4, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "C78.7", "text": "Metastasen der Leber, sekundär zu kolorektalem Karzinom", "alter": [50, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K50.90", "text": "Morbus Crohn, Ileum, nicht stenotisch", "alter": [15, 55], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K51.90", "text": "Chronisch-entzündliche Colitis ulcerosa, ausgedehntes Krankheitsbild", "alter": [12, 45], "geschlecht": "beide", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K55.0", "text": "Akute mesenterische Ischämie, nicht perforiert", "alter": [60, 85], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K55.2", "text": "Chronische mesenteriale Venenthrombose mit intestinaler Stauung", "alter": [45, 80], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "S36.0", "text": "Splenektomie nach traumatischer Ruptur der Milz", "alter": [10, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "C16.1", "text": "Magenkarzinom, proximal, pT2 pN0 M0", "alter": [55, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "C49.0", "text": "Gastrointestinaler Stromatumor (GIST) des Magens, lokalisierte Größe <5 cm", "alter": [30, 70], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "I71.3", "text": "Rupturiertes abdominales Aortenaneurysma, notfallchirurgisch versorgt", "alter": [65, 90], "geschlecht": "m", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K42.9", "text": "Umbilikale Hernie, nicht stranguliert", "alter": [20, 80], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K26.9", "text": "Ulkus ventriculi, nicht perforiert, symptomatisch", "alter": [40, 80], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K26.5", "text": "Perforiertes Ulkus duodeni mit lokaler Peritonitis", "alter": [45, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K56.6", "text": "Akute Darmintrinsiktion durch Adhäsionen, stranguliert", "alter": [30, 80], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K56.5", "text": "Chronische intestinale Pseudoobstruktion (Ogilvie-Syndrom)", "alter": [50, 85], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K73.9", "text": "Chronische Leberzirrhose, kompensiert, chirurgische Leberresektion wegen HCC", "alter": [55, 80], "geschlecht": "beide", "tage": [8, 15], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K57.91", "text": "Divertikulitis des Dünndarms, kompliziert mit Fistelbildung", "alter": [60, 85], "geschlecht": "beide", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Allgemein- und Viszeralchirurgie", "icd": "K60.3", "text": "Anale Fistel, persistierend, chirurgisch behandelt", "alter": [20, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S72.001", "text": "Fraktur des proximalen Femurs (Hüftfraktur) rechts, nicht näher bezeichnet", "alter": [70, 95], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S52.501", "text": "Distale Radiusfraktur links, nicht verschoben", "alter": [20, 80], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M16.0", "text": "Primäre Arthrose des Hüftgelenks beidseits, Stadium III", "alter": [55, 85], "geschlecht": "beide", "tage": [7, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M17.9", "text": "Kniegelenkarthrose, nicht näher bezeichnet, Stadium II", "alter": [45, 80], "geschlecht": "beide", "tage": [7, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S43.401", "text": "Luxation des Schultergelenks rechts, akut", "alter": [15, 70], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S82.001", "text": "Distale Fibulafraktur rechts, nicht verschoben", "alter": [25, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M48.06", "text": "Lumbale Spinalkanalstenose, beidseits, moderat", "alter": [60, 85], "geschlecht": "beide", "tage": [5, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S32.001", "text": "Thorakale Wirbelkörperfraktur (Kompressionsfraktur) T12, nicht operativ", "alter": [30, 80], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S22.001", "text": "Mehrere Rippenfrakturen links, ohne Pneumothorax", "alter": [18, 75], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M86.0", "text": "Akute Osteomyelitis der Wirbelsäule, lumbal, mit Staphylococcus aureus", "alter": [10, 80], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S61.001", "text": "Metakarpalfraktur der rechten Hand, nicht verschoben", "alter": [5, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M51.2", "text": "Lumbaler Bandscheibenvorfall L4/5, radikulär", "alter": [30, 70], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S83.001", "text": "Medialer Meniskusriss des rechten Kniegelenks, komplex", "alter": [20, 55], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S46.011", "text": "Ruptur der Supraspinatussehne rechts, akut", "alter": [25, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M24.2", "text": "Patellofemorales Schmerzsyndrom (Chondromalazie patellae) beidseits", "alter": [15, 45], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S90.001", "text": "Metatarsalfraktur II. Mittelfußknochen links, nicht verschoben", "alter": [10, 75], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M80.0", "text": "Osteoporotische Wirbelkörperfraktur (Kompressionsfraktur) L1, weiblich", "alter": [65, 90], "geschlecht": "w", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S33.5", "text": "Acetabulärfraktur links, operativ versorgt", "alter": [20, 70], "geschlecht": "beide", "tage": [10, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M92.2", "text": "Osteochondrose der Lendenwirbelsäule, beidseits", "alter": [30, 60], "geschlecht": "beide", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S93.401", "text": "Supinationstrauma mit Bandruptur des Sprunggelenks rechts, akut", "alter": [12, 55], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S22.10", "text": "Kompressionsfraktur des Brustwirbels T8, nicht operativ", "alter": [40, 80], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M96.1", "text": "Postoperative Wundinfektion nach totaler Knieendoprothese rechts, gramnegativ", "alter": [55, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M54.5", "text": "Chronische lumbale Rückenschmerzen, unklarer Genese", "alter": [30, 75], "geschlecht": "beide", "tage": [0, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S35.0", "text": "Fraktur des Darmbeins links, geschlossen", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M25.51", "text": "Schmerz im rechten Hüftgelenk, nicht näher bezeichnet", "alter": [40, 85], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S73.001", "text": "Patellafraktur rechts, nicht verschoben", "alter": [15, 50], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M97.8", "text": "Mechanische Komplikation einer internen Fixation am Femur, Locking-Plate Versagen", "alter": [18, 70], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M79.2", "text": "Neuralgie des Ischiasnervs rechts, chronisch", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "S30.0", "text": "Knochenprellung des Schambeins (Pubis) bei Sportverletzung, akut", "alter": [15, 45], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Unfallchirurgie und Orthopädie", "icd": "M84.4", "text": "Kalkablagerungen im Sehnenansatz (Tendinopathie) der Achillessehne rechts", "alter": [25, 70], "geschlecht": "beide", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I70.0", "text": "Atheromatöse Plaques der Aorta, Stadium II", "alter": [55, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I71.0", "text": "Akute Aortendissektion Typ A", "alter": [45, 70], "geschlecht": "m", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I71.2", "text": "Rupturiertes Aortenaneurysma, infrarenal", "alter": [60, 85], "geschlecht": "beide", "tage": [15, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I71.3", "text": "Nicht rupturiertes Aortenaneurysma, infrarenal, Größe 5,5 cm", "alter": [65, 85], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I73.9", "text": "Chronische periphere arterielle Verschlusskrankheit, Fontaine‑Stadium IIb", "alter": [50, 80], "geschlecht": "beide", "tage": [4, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I74.0", "text": "Akute arterielle Embolie der Unterschenkel, links", "alter": [55, 85], "geschlecht": "beide", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I74.3", "text": "Thrombose der Arteria poplitea, rechts", "alter": [60, 85], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I79.0", "text": "Thromboangiitis obliterans (Buerger‑Krankheit), Stadium III", "alter": [20, 45], "geschlecht": "m", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I65.2", "text": "Atherosklerotische Verschlusskrankheit der Arteria carotis interna, beidseits, Stadium III", "alter": [65, 85], "geschlecht": "beide", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I66.2", "text": "Atherosklerotische Verschlusskrankheit der Arteria femoralis, links, Stadium IV", "alter": [55, 80], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I72.0", "text": "Aneurysma der peripheren Arterien, A. tibialis posterior, rechts, 3 cm", "alter": [60, 85], "geschlecht": "beide", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I72.1", "text": "Aneurysma der Arteria femoralis, links, 4,2 cm", "alter": [55, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I72.4", "text": "Aneurysma der Arteria poplitea, rechts, 2,5 cm", "alter": [50, 75], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I80.1", "text": "Tiefe Beinvenenthrombose (TVT), proximal, rechts", "alter": [40, 80], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I83.0", "text": "Primäre Varikose der Unterschenkel, rechts, CEAP C2", "alter": [20, 60], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I87.2", "text": "Chronische Venenthrombose mit postthrombotischem Syndrom, beidseits", "alter": [30, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I82.4", "text": "Embolische Verschlusskrankheit der tiefen Beinvenen, beidseits", "alter": [35, 80], "geschlecht": "beide", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I78.4", "text": "Raynaud-Phänomen, sekundär, Stadium III", "alter": [15, 55], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I84.0", "text": "Hämorrhoiden, Grade III, intern", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "Q27.2", "text": "Aortenisthmus-Stenose (kongenital), kritisch", "alter": [0, 5], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I66.9", "text": "Atherosklerotische Verschlusskrankheit der peripheren Arterien, nicht näher bezeichnet", "alter": [55, 85], "geschlecht": "beide", "tage": [3, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I73.1", "text": "Thrombozytopenie infolge vaskulärer Malignität", "alter": [40, 75], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I67.4", "text": "Vaskulitis der großen Arterien, Takayasu‑Arteriitis", "alter": [15, 35], "geschlecht": "w", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I68.1", "text": "Embolische Ereignisse nach Herzklappenprothese, links", "alter": [50, 80], "geschlecht": "beide", "tage": [6, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I70.2", "text": "Atheromatöse Plaques der Beinarterien, beidseits", "alter": [60, 85], "geschlecht": "beide", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I71.4", "text": "Thorakales Aortenaneurysma, nicht rupturiert, 5,8 cm", "alter": [55, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I71.5", "text": "Thorakales Aortenaneurysma, rupturiert", "alter": [60, 85], "geschlecht": "beide", "tage": [12, 25], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I73.8", "text": "Thromboangiitis obliterans, akuter Schub, rechts", "alter": [25, 45], "geschlecht": "m", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I78.2", "text": "Thrombosierung der Vena cava inferior", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 11], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I82.2", "text": "Thrombose der Vena iliaca communis", "alter": [45, 80], "geschlecht": "beide", "tage": [6, 13], "model": "openai/gpt-oss-120b"}
+{"fach": "Gefäßchirurgie", "icd": "I70.9", "text": "Atheromatöse Plaques, nicht näher bezeichnet", "alter": [50, 85], "geschlecht": "beide", "tage": [2, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N40.0", "text": "Benigne Prostatahyperplasie (BPH)", "alter": [50, 80], "geschlecht": "m", "tage": [2, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "C61", "text": "Carcinoma der Prostata, Gleason 7 (3+4)", "alter": [55, 80], "geschlecht": "m", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N13.2", "text": "Hydronephrose, nicht näher bezeichnet", "alter": [20, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N20.0", "text": "Nierenstein, Calciumoxalat (CaOx)", "alter": [30, 70], "geschlecht": "beide", "tage": [1, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N20.2", "text": "Nierenstein, Struvit (Mg‑NH4‑PO4)", "alter": [20, 70], "geschlecht": "beide", "tage": [2, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N20.5", "text": "Multiple Nierensteine, Mischtyp", "alter": [30, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N41.0", "text": "Akute Prostatitis, Erreger: Escherichia coli", "alter": [20, 70], "geschlecht": "m", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N44.1", "text": "Epididymitis, akut, rechtsseitig", "alter": [15, 45], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N48.1", "text": "Penisfraktur, links, sekundäres Hämatom", "alter": [15, 50], "geschlecht": "m", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N50.0", "text": "Orchitis, bakteriell, links", "alter": [15, 50], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N39.0", "text": "Unkomplizierte Harnwegsinfektion, unkompliziert, beidseitig", "alter": [0, 90], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N39.3", "text": "Belastungsinkontinenz, weiblich, Stadium II", "alter": [30, 80], "geschlecht": "w", "tage": [2, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N40.1", "text": "Chronische Prostatitis, abgekoppelt, CP/CPPS", "alter": [30, 70], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N45.9", "text": "Orchitis, nicht näher bezeichnet", "alter": [20, 60], "geschlecht": "m", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N31.0", "text": "Neurogene Blasenfunktion, inkomplette Paraplegie", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "C67.0", "text": "Carcinoma der Harnblase, Apex, pT2a", "alter": [55, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "C67.9", "text": "Carcinoma der Harnblase, nicht näher bezeichnet, pT1", "alter": [55, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N18.5", "text": "Chronische Niereninsuffizienz, Stadium 5 (ESRD)", "alter": [40, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N13.9", "text": "Hydronephrose, nicht näher bezeichnet, beidseitig", "alter": [0, 90], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N35.0", "text": "Vesikoureteraler Reflux, Stadium III, links", "alter": [0, 30], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N30.1", "text": "Interstitielle Zystitis, chronisch, weiblich", "alter": [30, 70], "geschlecht": "w", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "C60.9", "text": "Karzinom des Penis, nicht näher bezeichnet, pT2", "alter": [50, 80], "geschlecht": "m", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N34.2", "text": "Urethritis, nicht gonokokale, anterieur", "alter": [15, 60], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N47.1", "text": "Phimose, primär, männlich, 5‑Jahre‑Alter", "alter": [5, 20], "geschlecht": "m", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N44.2", "text": "Hydrozele, beidseitig, chronisch", "alter": [20, 70], "geschlecht": "m", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N45.1", "text": "Varikozele, rechtsseitig, Klient 22 Jahre", "alter": [15, 30], "geschlecht": "m", "tage": [0, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N50.9", "text": "Sonstige nicht näher bezeichnete Hodenerkrankung, schmerzhaft", "alter": [20, 60], "geschlecht": "m", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Urologie", "icd": "N48.2", "text": "Priapismus, ischämisch, Dauer >4 h", "alter": [15, 40], "geschlecht": "m", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O80", "text": "Spontaneous vaginal delivery, term, uncomplicated", "alter": [18, 42], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O82", "text": "Cesarean section, elective, term, uncomplicated", "alter": [18, 45], "geschlecht": "w", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O14.0", "text": "Preeclampsia, mild, gestationsweek 32+", "alter": [20, 45], "geschlecht": "w", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O14.1", "text": "Preeclampsia, severe, gestationsweek 34+ with proteinuria", "alter": [20, 45], "geschlecht": "w", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O24.4", "text": "Gestational diabetes mellitus, diet-controlled", "alter": [18, 45], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O41.1", "text": "Chorioamnionitis, acute, gestationsweek 28+", "alter": [18, 42], "geschlecht": "w", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O72.0", "text": "Postpartale Blutung, primär, >1500 ml", "alter": [18, 45], "geschlecht": "w", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O85", "text": "Sepsis der Puerperium, gramnegative Erreger", "alter": [18, 45], "geschlecht": "w", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O44.1", "text": "Placenta praevia total, gestationsweek 36+", "alter": [20, 44], "geschlecht": "w", "tage": [4, 9], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O43.2", "text": "Placenta accreta, invasiv, gestationsweek 34+", "alter": [20, 44], "geschlecht": "w", "tage": [6, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O36.5", "text": "Fetale Wachstumsrestriktion, schwer, Doppler abnormal", "alter": [18, 42], "geschlecht": "w", "tage": [3, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O04.9", "text": "Unvollständige Fehlgeburt, konservativ behandelt", "alter": [16, 38], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N80.0", "text": "Endometriose, uterus, Stage III (Deep infiltrating)", "alter": [20, 45], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N80.1", "text": "Endometriose, Ovarien, Zyste, Stage II", "alter": [18, 40], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "D25.9", "text": "Uterusmyom, multiple, Größe 5‑8 cm, symptomatisch", "alter": [30, 55], "geschlecht": "w", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N83.2", "text": "Einfache Ovarialzyste, 4 cm, serös", "alter": [18, 45], "geschlecht": "w", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N83.5", "text": "Ovarialtorsion, rechts, akute Abdomen", "alter": [15, 35], "geschlecht": "w", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N92.0", "text": "Menorrhagie, primär, Blutverlust >80 ml/Periode", "alter": [25, 45], "geschlecht": "w", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N93.9", "text": "Abnorme Uterusblutung, nicht näher bezeichnet", "alter": [20, 50], "geschlecht": "w", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N94.6", "text": "Primäre Dysmenorrhoe, schmerzhaft, NSAID-Resistent", "alter": [15, 35], "geschlecht": "w", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N97", "text": "Infertilität, primär, weiblich, ovulatorisch", "alter": [20, 38], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N84.1", "text": "Endometriumhyperplasie, atypisch, ohne Neoplasie", "alter": [40, 65], "geschlecht": "w", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "C53.9", "text": "Karzinom des Gebärmutterhalses, FIGO IIb, HPV‑16 positiv", "alter": [35, 70], "geschlecht": "w", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "C54.1", "text": "Malignes Neoplasma des Endometriums, G2, hormonrezeptor‑positiv", "alter": [45, 80], "geschlecht": "w", "tage": [7, 15], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N70.0", "text": "Akute Salpingitis, bilaterale, mit Fieber", "alter": [20, 45], "geschlecht": "w", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "N81.0", "text": "Uterusprolaps, Stadium I, symptomatisch", "alter": [60, 85], "geschlecht": "w", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Gynäkologie und Geburtshilfe", "icd": "O23.9", "text": "Harnwegsinfekt in der Schwangerschaft, unkompliziert", "alter": [18, 40], "geschlecht": "w", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "J45.0", "text": "Asthma bronchiale, intermittierend", "alter": [0, 18], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "J45.9", "text": "Asthma bronchiale, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "J18.9", "text": "Pneumonie, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [5, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "B37.0", "text": "Kryptokokkose, Meningitis", "alter": [0, 5], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "P07.0", "text": "Frühgeburt, <28 Schwangerschaftswochen", "alter": [0, 0], "geschlecht": "beide", "tage": [30, 90], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "P15.9", "text": "Neonatale Hämolyse, nicht näher bezeichnet", "alter": [0, 0], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "E10.1", "text": "Typ-1-Diabetes mellitus mit Ketoazidose", "alter": [0, 18], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "E11.9", "text": "Typ-2-Diabetes mellitus, nicht näher bezeichnet (Adoleszente)", "alter": [12, 18], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "K35.80", "text": "Appendizitis, unkompliziert", "alter": [5, 18], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "K56.0", "text": "Akuter Ileus", "alter": [0, 18], "geschlecht": "beide", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "N39.0", "text": "Harnwegsinfekt, unkompliziert", "alter": [0, 18], "geschlecht": "w", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "L40.0", "text": "Plaque-Psoriasis, kindlich‑beginnend", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "G40.2", "text": "Epilepsie, fokale Anfälle", "alter": [0, 18], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "A15.0", "text": "Tuberkulose, milchige Lungenentzündung (Kinder)", "alter": [0, 5], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "J03.0", "text": "Streptokokken-Angina, akut", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "K21.9", "text": "Gastroösophageale Refluxkrankheit, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "R51", "text": "Kopfschmerz, Migräne, episodisch", "alter": [5, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "F90.0", "text": "Aufmerksamkeitsdefizit‑/Hyperaktivitätsstörung, vorwiegend hyperaktiv/impulsiv", "alter": [5, 12], "geschlecht": "m", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "F84.0", "text": "Frühkindlicher Autismus (Kanner‑Störung)", "alter": [0, 5], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "Q21.1", "text": "Ventrikelseptumdefekt, mäßig ausgeprägt", "alter": [0, 1], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "Q90.9", "text": "Down‑Syndrom, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "D73.9", "text": "Hämochromatose, nicht näher bezeichnet (Kinder)", "alter": [5, 18], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "M81.0", "text": "Osteoporose bei Kindern, sekundär", "alter": [10, 18], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "H66.0", "text": "Akute seröse Otitis media", "alter": [0, 5], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "H35.0", "text": "Retinopathie der Frühgeburt, Stadium II", "alter": [0, 1], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "L20.9", "text": "Atopisches Ekzem, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "B34.9", "text": "Virale Infektion, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "K90.0", "text": "Zöliakie, klassische Form", "alter": [1, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "D50.9", "text": "Eisenmangelanämie, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "R63.5", "text": "Gewichtsverlust, nicht näher bezeichnet", "alter": [0, 18], "geschlecht": "beide", "tage": [0, 1], "model": "openai/gpt-oss-120b"}
+{"fach": "Pädiatrie", "icd": "P59.0", "text": "Neugeborenen‑Hämorrhagische Krankheitsphase I (intrakranielle Blutung)", "alter": [0, 0], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L20.9", "text": "Atopisches Ekzem, chronisch, lichenifiziert", "alter": [0, 30], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L40.0", "text": "Psoriasis vulgaris, Plaque‑Typ, Stadium II", "alter": [15, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "C44.9", "text": "Basalzellkarzinom, im Gesicht, hochgradig lokalisierte Resektion", "alter": [50, 85], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "C43.9", "text": "Malignes Melanom, Breslow‑Tiefe 0,8 mm, Ulcus primär", "alter": [30, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L12.0", "text": "Bullöse Pemphigoid, generalisiert, schwere Juckreiz‑Symptomatik", "alter": [65, 90], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L10.0", "text": "Pemphigus vulgaris, mukokutan, erste Rezidivphase", "alter": [40, 80], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "B02.9", "text": "Herpes Zoster, thorakal, postherpetische Neuralgie", "alter": [50, 85], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L00", "text": "Staphylococcal Scalded Skin Syndrome, akut, Kinder", "alter": [0, 5], "geschlecht": "beide", "tage": [14, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L51.1", "text": "Stevens‑Johnson‑Syndrom, nach Medikamentengabe", "alter": [20, 70], "geschlecht": "beide", "tage": [12, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L51.2", "text": "Toxische epidermale Nekrolyse, auslösendes Sulfonamid", "alter": [25, 75], "geschlecht": "beide", "tage": [14, 28], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L93.0", "text": "Diskus lupus erythematodes, kutan, ohne systemische Beteiligung", "alter": [20, 60], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L80", "text": "Vitiligo, ausgedehnt, Gesicht und Hände", "alter": [10, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L71.0", "text": "Rosazea, papulopustulös, Stadium III", "alter": [30, 65], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L21.0", "text": "Seborrhoische Dermatitis, Kopfhaut, chronisch", "alter": [15, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L23.9", "text": "Allergische Kontaktdermatitis, Nickel‑Allergie", "alter": [15, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L24.9", "text": "Irritative Kontaktdermatitis, Handekzem, beruflich bedingt", "alter": [20, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L01.0", "text": "Impetigo contagiosa, perioral, akute Phase", "alter": [0, 12], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "C84.0", "text": "Mycosis fungoides, Plaque‑Phase, Stadium IA", "alter": [30, 80], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L28.1", "text": "Prurigo nodularis, chronisch, exzitatorischer Juckreiz", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L52", "text": "Erythema nodosum, septisch, nach Streptokokkeninfektion", "alter": [15, 55], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L43.9", "text": "Lichen planus, papulös, an Handgelenken", "alter": [20, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "B35.4", "text": "Dermatophytose (Tinea corporis), Trichophyton rubrum", "alter": [5, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L42", "text": "Pityriasis rosea, klassisch, selbstlimitierend", "alter": [10, 35], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "Q80.1", "text": "Ichthyosis vulgaris, familiär, leichte Hyperkeratose", "alter": [0, 30], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L97.9", "text": "Chronisches nicht‑Druck‑Ulkus der Haut, venös, Unterschenkel", "alter": [60, 90], "geschlecht": "beide", "tage": [10, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "L27.0", "text": "Medikamentöser Hautausschlag, exanthematisch, nach Antibiotika", "alter": [5, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Dermatologie", "icd": "C46.0", "text": "Kaposi‑Sarkom, kutan, HHV‑8‑assoziiert, HIV‑positiv", "alter": [30, 70], "geschlecht": "m", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H66.0", "text": "Akute suppurative Otitis media, beidseits", "alter": [0, 12], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H71.0", "text": "Cholesteatom der Paukenhöhle, beidseits, Stadium II", "alter": [10, 60], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H70.0", "text": "Akute Mastoiditis, einseitig", "alter": [0, 15], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J01.0", "text": "Akute maxilläre Sinusitis, unkompliziert", "alter": [5, 60], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J33.1", "text": "Nasale Polypen, multiple, chronisch", "alter": [20, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J30.1", "text": "Allergische Rhinitis, Pollenallergie, saisonal", "alter": [5, 45], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J34.2", "text": "Deviierte Nasenscheidewand, beidseits, operativ indiziert", "alter": [15, 60], "geschlecht": "beide", "tage": [2, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "R04.0", "text": "Epistaxis, spontan, wiederkehrend", "alter": [0, 90], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H81.1", "text": "Benigne paroxysmale Lagerungsschwindel (BPPV)", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H81.0", "text": "Morbus Menière, beidseits, Stadium III", "alter": [40, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "D33.3", "text": "Vestibularer Akustikusneurinom, Größe 2 cm, beidseits", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "C32.9", "text": "Malignes Neoplasma des Kehlkopfes, nicht näher bezeichnet, T2N0M0", "alter": [50, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J38.0", "text": "Polyp der Stimmlippen, unilateral, mittelgroß", "alter": [20, 70], "geschlecht": "beide", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J04.0", "text": "Akute Laryngitis, virale Ätiologie", "alter": [0, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J02.0", "text": "Streptokokken-Pharyngitis, akut, GAS positiv", "alter": [0, 30], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J36", "text": "Peritonsillarabszess, rechts, akut", "alter": [10, 40], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J35.0", "text": "Akute Tonsillitis, beidseits, bakteriell", "alter": [0, 12], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "C02.9", "text": "Malignes Neoplasma der Mundhöhle, nicht näher bezeichnet, T3N1M0", "alter": [40, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "D48.0", "text": "Gutartiges Neoplasma der Speicheldrüse, parotis, einseitig", "alter": [30, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "K11.2", "text": "Akute Sialadenitis, submandibulär, bakterielle Ätiologie", "alter": [20, 70], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "M35.0", "text": "Sjögren-Syndrom, sekundär, mit sicca-Symptomatik", "alter": [30, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H80.3", "text": "Otosklerose, beidseits, fortgeschrittenes Stadium", "alter": [15, 50], "geschlecht": "beide", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H90.3", "text": "Presbyakusis, beidseits, moderat", "alter": [60, 90], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H90.2", "text": "Leitungsstörung des Gehörs, beidseits, otosklerotisch", "alter": [5, 40], "geschlecht": "beide", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H91.2", "text": "Idiopathischer plötzlicher sensorineuraler Hörverlust, unilateral", "alter": [30, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "G51.0", "text": "Fazialisparese idiopathisch (Bell's palsy), unilateral", "alter": [15, 60], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J35.1", "text": "Chronische Tonsillitis mit Hypertrophie, beidseits", "alter": [5, 30], "geschlecht": "beide", "tage": [2, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "C11.9", "text": "Malignes Neoplasma des Nasopharynx, nicht näher bezeichnet, T2N1M0", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "J38.1", "text": "Laryngeale Papillomatose, multiple, wiederkehrend", "alter": [5, 40], "geschlecht": "beide", "tage": [1, 2], "model": "openai/gpt-oss-120b"}
+{"fach": "Hals-Nasen-Ohren-Heilkunde", "icd": "H60.3", "text": "Maligne Otitis externa (Pseudomonas), beidseits, fortgeschritten", "alter": [50, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F20.0", "text": "Schizophrenie, paranoide Form", "alter": [18, 45], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F20.4", "text": "Schizophrenie, katatone Form", "alter": [18, 40], "geschlecht": "beide", "tage": [28, 60], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F20.6", "text": "Schizophrenie, residualer Typ", "alter": [20, 50], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F25.0", "text": "Schizoaffektive Störung, bipolarer Typ", "alter": [18, 55], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F31.1", "text": "Bipolare affektive Störung, gegenwärtig manische Episode, leichtgradig", "alter": [18, 60], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F31.2", "text": "Bipolare affektive Störung, gegenwärtig manische Episode, mittelgradig", "alter": [18, 60], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F32.0", "text": "Depressive Episode, leichtgradig", "alter": [15, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F32.2", "text": "Depressive Episode, mittelschwer", "alter": [15, 70], "geschlecht": "beide", "tage": [14, 28], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F32.3", "text": "Schwere depressive Episode mit psychotischen Symptomen", "alter": [18, 65], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F33.1", "text": "Rezidivierende depressive Störung, gegenwärtig mittelgradig", "alter": [18, 75], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F33.2", "text": "Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome", "alter": [18, 75], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F41.0", "text": "Panikstörung", "alter": [12, 55], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F40.0", "text": "Agoraphobie ohne Panikstörung", "alter": [15, 60], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F42.0", "text": "Zwangsstörung (OCD) – Zwangsgedanken und -handlungen", "alter": [12, 65], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F44.5", "text": "Dissoziative Störung, nicht näher bezeichnet", "alter": [16, 55], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F45.4", "text": "Depersonalisations‑/Derealisationsstörung", "alter": [16, 50], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F50.0", "text": "Anorexia nervosa, restriktiver Typ", "alter": [12, 30], "geschlecht": "w", "tage": [30, 60], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F50.2", "text": "Bulimia nervosa", "alter": [14, 35], "geschlecht": "w", "tage": [30, 60], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F52.0", "text": "Geschlechtsidentitätsstörung (Transidentität)", "alter": [16, 45], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F63.0", "text": "Alkoholabhängigkeitssyndrom", "alter": [18, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F17.2", "text": "Nikotinabhängigkeit, schwere Form", "alter": [15, 65], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F90.0", "text": "Aufmerksamkeitsdefizit‑/Hyperaktivitätsstörung, vorwiegend unaufmerksam", "alter": [6, 18], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F84.0", "text": "Frühkindlicher Autismus (klassischer Autismus)", "alter": [3, 12], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F84.5", "text": "Asperger‑Syndrom", "alter": [6, 25], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F84.1", "text": "Atypischer Autismus (z.B. Rett‑Syndrom)", "alter": [2, 15], "geschlecht": "weiblich", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F06.0", "text": "Organische psychische Störung, z.B. Delirium", "alter": [65, 95], "geschlecht": "beide", "tage": [7, 21], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F06.2", "text": "Chronische schizoaffektive Störung", "alter": [20, 55], "geschlecht": "beide", "tage": [21, 45], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F52.7", "text": "Nicht‑physiologische sexuelle Funktionsstörung (z.B. sexuelle Dysfunktion)", "alter": [18, 65], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F55.0", "text": "Somatisierungsstörung mit psychischer Komponente (z.B. Schmerzstörung)", "alter": [20, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F84.9", "text": "Störung des Sozialverhaltens, nicht näher bezeichnet (z.B. oppositionelles Trotzverhalten)", "alter": [6, 18], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Psychiatrie und Psychotherapie", "icd": "F33.3", "text": "Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen", "alter": [18, 75], "geschlecht": "beide", "tage": [28, 60], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "I21.9", "text": "Akuter Myokardinfarkt, nicht näher bezeichnet", "alter": [65, 95], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "I50.9", "text": "Chronische Herzinsuffizienz, NYHA III", "alter": [70, 92], "geschlecht": "beide", "tage": [7, 15], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "E11.9", "text": "Typ-2-Diabetes mellitus ohne Komplikationen", "alter": [65, 90], "geschlecht": "beide", "tage": [4, 8], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "F03.9", "text": "Unspecified Demenz (nicht näher bezeichnet)", "alter": [75, 95], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "F00.0", "text": "Alzheimer-Krankheit, leichter bis mittlerer Schweregrad", "alter": [70, 90], "geschlecht": "beide", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "M80.0", "text": "Osteoporose mit pathologischer Femurfraktur", "alter": [75, 95], "geschlecht": "beide", "tage": [12, 25], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "S72.001", "text": "Oberschenkelhalsfraktur, rechts, nicht operativ behandelt", "alter": [80, 95], "geschlecht": "beide", "tage": [10, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "J44.9", "text": "Chronisch obstruktive Lungenerkrankung, GOLD III/IV", "alter": [68, 92], "geschlecht": "beide", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "J18.9", "text": "Pneumonie, nicht näher bezeichnet, ambulant erworben", "alter": [70, 94], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "N39.0", "text": "Akute unkomplizierte Harnwegsinfektion", "alter": [65, 90], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "K70.3", "text": "Alkoholische Leberzirrhose, kompensiert", "alter": [68, 85], "geschlecht": "m", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "C34.9", "text": "Bronchialkarzinom, nicht näher bezeichnet, fortgeschrittenes Stadium", "alter": [70, 88], "geschlecht": "beide", "tage": [12, 25], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "G30.0", "text": "Alzheimer-Krankheit, frühes Stadium", "alter": [70, 85], "geschlecht": "beide", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Geriatrie", "icd": "M81.0", "text": "Primäre Osteoporose, ohne Fraktur", "alter": [70, 90], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S06.5X9A", "text": "Traumatischer subduraler Hämatom, initiale Vorstellung", "alter": [20, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S06.4X9A", "text": "Traumatischer epiduraler Hämatom, initiale Vorstellung", "alter": [15, 60], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S06.0X9A", "text": "Konzuss, initiale Vorstellung", "alter": [10, 50], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "I60.0", "text": "Ruptur eines zerebralen Aneurysmas mit Subarachnoidalblutung", "alter": [30, 70], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "I61.9", "text": "Spontane intrazerebrale Blutung, nicht näher bezeichnet", "alter": [45, 80], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "C71.9", "text": "Malignes Hirntumor, nicht näher bezeichnet", "alter": [30, 70], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "D33.0", "text": "Gutartiger Hirntumor, supratentoriell, WHO‑Grad I", "alter": [20, 60], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G91.0", "text": "Normaldruckhydrozephalus", "alter": [60, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G95.1", "text": "Syringomyelie, zervikal", "alter": [25, 65], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "M48.06", "text": "Lumbale Spinalkanalstenose", "alter": [40, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "M51.2", "text": "Lumbaler Bandscheibenvorfall mit Radikulopathie", "alter": [30, 70], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "M51.16", "text": "Zervikaler Bandscheibenvorfall mit Radikulopathie", "alter": [25, 65], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G96.0", "text": "Zerebrales Ödem nach Trauma", "alter": [15, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S02.0", "text": "Schädelbasisfraktur, basal", "alter": [20, 70], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S09.90", "text": "Unbestimmte Gehirnverletzung, nicht näher bezeichnet", "alter": [10, 60], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S12.0", "text": "Fraktur der Halswirbelsäule, nicht näher bezeichnet", "alter": [15, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S14.1", "text": "Querschnittslähmung, zervikaler Bereich", "alter": [20, 60], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "S34.0", "text": "Fraktur der Lendenwirbelsäule", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G95.2", "text": "Tethered‑Cord‑Syndrom, erworben", "alter": [0, 30], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G96.1", "text": "Posttraumatischer Hydrozephalus", "alter": [20, 70], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "C70.0", "text": "Malignes Neoplasma des Rückenmarks", "alter": [30, 70], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "D32.0", "text": "Gutartiger Neoplasma der Spinalmeningen, thorakal", "alter": [25, 65], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G45.9", "text": "Transitorische ischämische Attacke, nicht näher bezeichnet", "alter": [50, 80], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G96.0", "text": "Kraniale und spinale Liquorleck (CSF‑Leck) nach Operation", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G36.0", "text": "Neuromyelitis optica, akute Phase", "alter": [20, 50], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "Q28.2", "text": "Spinale arteriovenöse Malformation", "alter": [10, 50], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G95.3", "text": "Zervikale Spinalkanalstenose", "alter": [40, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G95.8", "text": "Angeborene Fehlbildung des Rückenmarks, sonstige", "alter": [0, 30], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G96.2", "text": "Kranial‑spinale Liquorverlust (postoperativ)", "alter": [20, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G44.3", "text": "Migräne mit Aura, therapieresistent, operativ behandelt (neurostimulativ)", "alter": [25, 55], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "M48.5", "text": "Degenerative Wirbelsäulenveränderungen mit Instabilität, lumbal", "alter": [40, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G95.0", "text": "Spinale Myelopathie, nicht näher bezeichnet", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Neurochirurgie", "icd": "G56.0", "text": "Karpaltunnelsyndrom, operativ versorgt", "alter": [30, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M05.9", "text": "Rheumatoide Arthritis, nicht näher bezeichnet, Stadium II", "alter": [35, 75], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M06.9", "text": "Sonstige chronische Polyarthritis, nicht näher bezeichnet", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M32.1", "text": "Systemischer Lupus erythematodes mit Beteiligung der Haut", "alter": [15, 45], "geschlecht": "w", "tage": [8, 16], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.3", "text": "Kryoglobulinämische Vaskulitis, akut", "alter": [40, 70], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.5", "text": "Behçet‑Syndrom, schwere Schleimhautbeteiligung", "alter": [20, 50], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.6", "text": "Takayasu‑Arteriitis, aktiv", "alter": [10, 30], "geschlecht": "w", "tage": [12, 25], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.7", "text": "Kawasaki‑Syndrom, Erwachsene", "alter": [18, 35], "geschlecht": "beide", "tage": [10, 18], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M33.2", "text": "Dermatomyositis, mit Hautbeteiligung, neu diagnostiziert", "alter": [5, 70], "geschlecht": "beide", "tage": [14, 28], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M34.0", "text": "Systemischer Lupus erythematodes, initiale Manifestation", "alter": [12, 50], "geschlecht": "w", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M35.0", "text": "Sjögren‑Syndrom, primär, sicca‑Symptomatik", "alter": [30, 70], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M40.0", "text": "Ankylosierende Spondylitis, früher Beginn, radiologisch bestätigt", "alter": [15, 40], "geschlecht": "m", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M41.9", "text": "Skoliose, idiopathisch, nicht operativ behandelt", "alter": [0, 25], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M45.9", "text": "Ankylosierende Spondylitis, fortgeschrittenes Stadium", "alter": [25, 55], "geschlecht": "m", "tage": [8, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M47.8", "text": "Spondylopathie, nicht näher bezeichnet, chronisch", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M79.7", "text": "Fibromyalgie, diffuse Schmerzen, chronisch", "alter": [30, 60], "geschlecht": "w", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M80.0", "text": "Osteoporose, primär, mit Fraktur der Wirbelsäule", "alter": [60, 85], "geschlecht": "beide", "tage": [6, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M86.0", "text": "Akute Osteomyelitis des Beckens, bakteriell", "alter": [5, 70], "geschlecht": "beide", "tage": [14, 30], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M94.0", "text": "Kondromalazie der Patella, symptomatisch", "alter": [15, 45], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M95.1", "text": "Gelenkarthrose, Knie, fortgeschrittenes Stadium", "alter": [50, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M96.1", "text": "Posttraumatischer Arthrose, Schulter, sekundär", "alter": [20, 65], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M30.0", "text": "Polyarteriitis nodosa, akut, organmanifestiert", "alter": [20, 60], "geschlecht": "beide", "tage": [12, 25], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.2", "text": "Granulomatose mit Polyangiitis (Wegener), aktiv", "alter": [30, 70], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M35.9", "text": "Sonstige näher bezeichnete Kollagenosen, unspezifisch", "alter": [25, 65], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M25.5", "text": "Schultergelenksarthrose, sekundär, symptomatisch", "alter": [45, 80], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M79.2", "text": "Myalgie, nicht näher bezeichnet, chronisch", "alter": [30, 70], "geschlecht": "beide", "tage": [0, 0], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M24.2", "text": "Schultergelenk‑Instabilität, traumatisch, akut", "alter": [15, 55], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M54.5", "text": "Lumbale Rückenschmerzen, unspezifisch, akut", "alter": [20, 70], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M86.1", "text": "Chronische Osteomyelitis, tibial, nach Trauma", "alter": [10, 60], "geschlecht": "beide", "tage": [10, 20], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M35.8", "text": "Kollagenose‑Mittlere‑Läsion, unspezifisch, interdisziplinär", "alter": [25, 55], "geschlecht": "beide", "tage": [5, 12], "model": "openai/gpt-oss-120b"}
+{"fach": "Rheumatologie", "icd": "M31.9", "text": "Vaskulitis, nicht näher bezeichnet, aktiv", "alter": [30, 80], "geschlecht": "beide", "tage": [8, 16], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I21.0", "text": "ST-Elevation Myokardinfarkt, anterior", "alter": [45, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I20.0", "text": "Instabile Angina pectoris", "alter": [50, 85], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I21.4", "text": "Nicht-ST-Hebungs-Myokardinfarkt (NSTEMI)", "alter": [45, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I63.9", "text": "Akuter ischämischer Schlaganfall, nicht näher bezeichnet", "alter": [55, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I61.9", "text": "Spontane intrazerebrale Blutung", "alter": [60, 85], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I60.9", "text": "Spontane Subarachnoidalblutung", "alter": [40, 70], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K35.80", "text": "Akute Appendizitis, nicht perforiert", "alter": [10, 40], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K35.2", "text": "Akute Appendizitis mit Perforation", "alter": [10, 50], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K81.0", "text": "Akute kalkuläre Cholezystitis", "alter": [30, 70], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K85.9", "text": "Akute Pankreatitis, nicht näher bezeichnet", "alter": [30, 70], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "J44.1", "text": "Akute Exazerbation einer chronisch obstruktiven Lungenerkrankung (COPD)", "alter": [50, 85], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "J45.901", "text": "Akuter Asthmaanfall, nicht näher bezeichnet", "alter": [5, 60], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "J13", "text": "Pneumonie durch Streptococcus pneumoniae", "alter": [20, 80], "geschlecht": "beide", "tage": [4, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I26.9", "text": "Lungenembolie, nicht näher bezeichnet", "alter": [30, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I82.9", "text": "Tiefe Venenthrombose, nicht näher bezeichnet", "alter": [20, 80], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "A41.9", "text": "Sepsis, nicht näher bezeichnet", "alter": [30, 90], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "G00.9", "text": "Akute bakterielle Meningitis, nicht näher bezeichnet", "alter": [0, 70], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "G40.2", "text": "Status epilepticus", "alter": [0, 80], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "N17.9", "text": "Akutes Nierenversagen, nicht näher bezeichnet", "alter": [30, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K92.2", "text": "Akute Blutung aus dem oberen Gastrointestinaltrakt, nicht näher bezeichnet", "alter": [40, 80], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "K92.1", "text": "Akute Blutung aus dem unteren Gastrointestinaltrakt", "alter": [40, 85], "geschlecht": "beide", "tage": [3, 7], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "S72.0", "text": "Femurfraktur, proximaler Femurhalsbruch, nicht klassifiziert", "alter": [70, 95], "geschlecht": "beide", "tage": [7, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "S32.0", "text": "Kompressionfractur der thorakalen Wirbelsäule", "alter": [60, 90], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "T78.2", "text": "Anaphylaktischer Schock", "alter": [5, 70], "geschlecht": "beide", "tage": [1, 3], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I50.23", "text": "Akute dekompensierte systolische Herzinsuffizienz (akut auf chronisch)", "alter": [50, 85], "geschlecht": "beide", "tage": [5, 10], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "I71.0", "text": "Aortendissektion, Typ A", "alter": [40, 70], "geschlecht": "beide", "tage": [10, 14], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "N10", "text": "Akute Pyelonephritis", "alter": [20, 80], "geschlecht": "beide", "tage": [3, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "L03.90", "text": "Nicht näher bezeichnete akute kutane Zellulitis", "alter": [10, 80], "geschlecht": "beide", "tage": [2, 5], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "F10.231", "text": "Entzugssymptomatik, epileptische Anfälle bei Alkoholabhängigkeit", "alter": [30, 70], "geschlecht": "beide", "tage": [2, 4], "model": "openai/gpt-oss-120b"}
+{"fach": "Zentrale Notaufnahme", "icd": "E11.0", "text": "Hyperosmolares hyperglykämisches Syndrom bei Typ-2-Diabetes", "alter": [50, 85], "geschlecht": "beide", "tage": [3, 6], "model": "openai/gpt-oss-120b"}

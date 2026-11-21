@@ -1,0 +1,385 @@
+{
+ "festgelegt": "2026-11-20, vor der Schlussöffnung; Gegner-Schwellen aus results/gegner_tabelle_dev.md; unser Modell eingetragen 20.11.2026 15:52 nach results/hebel_h_urteil.md (h zählt nicht)",
+ "saetze": [
+  "grascco_de",
+  "mdeid_de"
+ ],
+ "zeilen": [
+  {
+   "name": "mein Modell, PyTorch (mit GROSS-Lesung wie im Paket)",
+   "modell": "modelle/ds3_large_A_typen/s44",
+   "lauf": "unser_T",
+   "gruppe": "haupt",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.5"
+   }
+  },
+  {
+   "name": "mein Modell, PyTorch, ohne GROSS-Lesung (wie die Gegner)",
+   "modell": "modelle/ds3_large_A_typen/s44",
+   "lauf": "unser_T_ohneGross",
+   "gruppe": "haupt",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.5"
+   }
+  },
+  {
+   "name": "mein Modell, ONNX fp16 (ausgelieferte Datei)",
+   "modell": "modelle/ds3_large_A_typen/s44",
+   "onnx_datei": "model_fp16.onnx",
+   "lauf": "unserOnnx_T",
+   "gruppe": "onnx",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.5"
+   }
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-base (Standard argmax)",
+   "modell": "Horizon-Labs/pii-redactor-base",
+   "lauf": "horizonB_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-base (Schwelle 0.1, auf dev gewählt: Ausweich)",
+   "modell": "Horizon-Labs/pii-redactor-base",
+   "lauf": "horizonB_T",
+   "lesung": {
+    "schwaerz": "0.1",
+    "typ": "0.1"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-small (Standard argmax)",
+   "modell": "Horizon-Labs/pii-redactor-small",
+   "lauf": "horizonS_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "Horizon-Labs/pii-redactor-small (Schwelle 0.1, auf dev gewählt: Ausweich)",
+   "modell": "Horizon-Labs/pii-redactor-small",
+   "lauf": "horizonS_T",
+   "lesung": {
+    "schwaerz": "0.1",
+    "typ": "0.1"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1 (Standard argmax)",
+   "modell": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1",
+   "lauf": "openmedSCsmall_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1 (Schwelle 0.3, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/OpenMed-PII-SuperClinical-Small-44M-v1",
+   "lauf": "openmedSCsmall_T",
+   "lesung": {
+    "schwaerz": "0.3",
+    "typ": "0.3"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1 (Standard argmax)",
+   "modell": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1",
+   "lauf": "openmedSCbase_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1 (Schwelle 0.5, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/OpenMed-PII-German-SuperClinical-Base-184M-v1",
+   "lauf": "openmedSCbase_T",
+   "lesung": {
+    "schwaerz": "0.5",
+    "typ": "0.5"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1 (Standard argmax)",
+   "modell": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1",
+   "lauf": "openmedLongformer_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1 (Schwelle 0.5, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/OpenMed-PII-German-ClinicalLongformer-Base-149M-v1",
+   "lauf": "openmedLongformer_T",
+   "lesung": {
+    "schwaerz": "0.5",
+    "typ": "0.5"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1 (Standard argmax)",
+   "modell": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1",
+   "lauf": "openmedBiomedL_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1 (Schwelle 0.1, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/OpenMed-PII-German-BiomedELECTRA-Large-335M-v1",
+   "lauf": "openmedBiomedL_T",
+   "lesung": {
+    "schwaerz": "0.1",
+    "typ": "0.1"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1 (Standard argmax)",
+   "modell": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1",
+   "lauf": "openmedE5_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1 (Schwelle 0.3, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/OpenMed-PII-German-ClinicalE5-Base-109M-v1",
+   "lauf": "openmedE5_T",
+   "lesung": {
+    "schwaerz": "0.3",
+    "typ": "0.3"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "Ibrahimbaroud/personal-information-detection-german (Standard argmax)",
+   "modell": "Ibrahimbaroud/personal-information-detection-german",
+   "lauf": "ibrahim_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "Ibrahimbaroud/personal-information-detection-german (Schwelle 0.1, auf dev gewählt: Regel)",
+   "modell": "Ibrahimbaroud/personal-information-detection-german",
+   "lauf": "ibrahim_T",
+   "lesung": {
+    "schwaerz": "0.1",
+    "typ": "0.1"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "iiiorg/piiranha-v1-detect-personal-information (Standard argmax)",
+   "modell": "iiiorg/piiranha-v1-detect-personal-information",
+   "lauf": "piiranha_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "iiiorg/piiranha-v1-detect-personal-information (Schwelle 0.01, auf dev gewählt: Ausweich)",
+   "modell": "iiiorg/piiranha-v1-detect-personal-information",
+   "lauf": "piiranha_T",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.01"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "StanfordAIMI/stanford-deidentifier-base (Standard argmax)",
+   "modell": "StanfordAIMI/stanford-deidentifier-base",
+   "lauf": "stanford_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "StanfordAIMI/stanford-deidentifier-base (Schwelle 0.5, auf dev gewählt: Ausweich)",
+   "modell": "StanfordAIMI/stanford-deidentifier-base",
+   "lauf": "stanford_T",
+   "lesung": {
+    "schwaerz": "0.5",
+    "typ": "0.5"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "obi/deid_roberta_i2b2 (Standard argmax)",
+   "modell": "obi/deid_roberta_i2b2",
+   "lauf": "obi_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "obi/deid_roberta_i2b2 (Schwelle 0.1, auf dev gewählt: Ausweich)",
+   "modell": "obi/deid_roberta_i2b2",
+   "lauf": "obi_T",
+   "lesung": {
+    "schwaerz": "0.1",
+    "typ": "0.1"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "syntriq/tarn-german-pii-large (Standard argmax)",
+   "modell": "syntriq/tarn-german-pii-large",
+   "lauf": "tarnL_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "syntriq/tarn-german-pii-large (Schwelle 0.01, auf dev gewählt: Regel)",
+   "modell": "syntriq/tarn-german-pii-large",
+   "lauf": "tarnL_T",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.01"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "syntriq/tarn-german-pii-base (Standard argmax)",
+   "modell": "syntriq/tarn-german-pii-base",
+   "lauf": "tarnB_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "syntriq/tarn-german-pii-base (Schwelle 0.01, auf dev gewählt: Regel)",
+   "modell": "syntriq/tarn-german-pii-base",
+   "lauf": "tarnB_T",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.01"
+   },
+   "gruppe": "haupt"
+  },
+  {
+   "name": "openai/privacy-filter (Standard argmax)",
+   "modell": "openai/privacy-filter",
+   "lauf": "openaiPF_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "pf"
+  },
+  {
+   "name": "openai/privacy-filter (Schwelle 0.01, auf dev gewählt: Ausweich)",
+   "modell": "openai/privacy-filter",
+   "lauf": "openaiPF_T",
+   "lesung": {
+    "schwaerz": "0.01",
+    "typ": "0.01"
+   },
+   "gruppe": "pf"
+  },
+  {
+   "name": "OpenMed/privacy-filter-multilingual-v2 (Standard argmax)",
+   "modell": "OpenMed/privacy-filter-multilingual-v2",
+   "lauf": "openmedPF_T",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": "argmax"
+   },
+   "gruppe": "pf"
+  },
+  {
+   "name": "OpenMed/privacy-filter-multilingual-v2 (Schwelle 0.5, auf dev gewählt: Ausweich)",
+   "modell": "OpenMed/privacy-filter-multilingual-v2",
+   "lauf": "openmedPF_T",
+   "lesung": {
+    "schwaerz": "0.5",
+    "typ": "0.5"
+   },
+   "gruppe": "pf"
+  },
+  {
+   "name": "urchade/gliner_multi_pii-v1 (Standard 0.5, nur Spannen)",
+   "modell": "urchade/gliner_multi_pii-v1",
+   "lauf": "urchade_T",
+   "gliner": "gliner",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": null
+   },
+   "gruppe": "gliner"
+  },
+  {
+   "name": "knowledgator/gliner-pii-large-v1.0 (Standard 0.5, nur Spannen)",
+   "modell": "knowledgator/gliner-pii-large-v1.0",
+   "lauf": "knowledgator_T",
+   "gliner": "gliner",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": null
+   },
+   "gruppe": "gliner"
+  },
+  {
+   "name": "fastino/gliner2-privacy-filter-PII-multi (Standard 0.5, nur Spannen)",
+   "modell": "fastino/gliner2-privacy-filter-PII-multi",
+   "lauf": "fastino_T",
+   "gliner": "gliner2",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": null
+   },
+   "gruppe": "gliner"
+  },
+  {
+   "name": "syntriq/tarn-german-pii-gliner-base (Standard 0.5, nur Spannen)",
+   "modell": "syntriq/tarn-german-pii-gliner-base",
+   "lauf": "tarnGliner_T",
+   "gliner": "gliner",
+   "lesung": {
+    "schwaerz": "argmax",
+    "typ": null
+   },
+   "gruppe": "gliner"
+  }
+ ],
+ "abbildung": "v1"
+}

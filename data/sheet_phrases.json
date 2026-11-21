@@ -1,0 +1,403 @@
+{
+ "titles_head": [
+  "Prof. Dr. med.",
+  "Prof. Dr.",
+  "Univ.-Prof. Dr. med.",
+  "PD Dr. med.",
+  "Dr. med.",
+  "Prof. Dr. med. habil."
+ ],
+ "titles_senior": [
+  "Dr. med.",
+  "PD Dr. med.",
+  "Priv.-Doz. Dr.",
+  "Dr.",
+  "Dr. med. univ.",
+  "Prof. Dr."
+ ],
+ "titles_junior": [
+  "Dr. med.",
+  "Dr.",
+  "",
+  "",
+  "",
+  "Dipl.-Med."
+ ],
+ "titles_rare": [
+  "Ao. Univ.-Prof. Dr. med.",
+  "Dr. med. univ.",
+  "MD",
+  "MD PhD",
+  "Dr. med. dent.",
+  "Dr. rer. nat.",
+  "Prof. Dr. med. Dr. h. c."
+ ],
+ "twists": [
+  "postoperative oder interventionelle Komplikation, die den Aufenthalt verlängert",
+  "Zufallsbefund, der weiter abgeklärt werden muss",
+  "Aufnahmediagnose wird im Verlauf revidiert",
+  "Entlassung gegen ärztlichen Rat",
+  "zwischenzeitliche Verlegung auf die Intensivstation",
+  "Patient oder Patientin verstirbt im Verlauf (Brief an Hausarzt oder Hausärztin)",
+  "Arzneimittelunverträglichkeit mit Umstellung der Therapie",
+  "soziale Probleme verzögern die Entlassung (Versorgung zu Hause, Sozialdienst, Betreuung)",
+  "Wiederaufnahme kurz nach der letzten Entlassung",
+  "nosokomiale Infektion im Verlauf",
+  "Delir im Verlauf",
+  "Sturz auf Station"
+ ],
+ "layouts": [
+  "problemorientiert nach Diagnosen gegliedert, die Diagnosen nummeriert",
+  "chronologischer Verlauf nach Tagen",
+  "knapper Telegrammstil, kaum ganze Sätze",
+  "klassische Epikrise in ganzen Sätzen",
+  "Gliederung in feste Abschnitte mit Überschriften wie im Kliniksystem"
+ ],
+ "age_forms": [
+  "'67-jährige Patientin'",
+  "'67 J.'",
+  "'67 Jahre alt'",
+  "'im Alter von 67 Jahren'",
+  "'Pat. (67 J., w)'",
+  "'67-j. Pat.'",
+  "Alter gar nicht nennen"
+ ],
+ "lookalikes": [
+  [
+   "Morbus Crohn",
+   "Morbus Parkinson",
+   "Morbus Basedow",
+   "Hashimoto-Thyreoiditis",
+   "Morbus Bechterew",
+   "Cushing-Syndrom",
+   "Morbus Addison",
+   "Hodgkin-Lymphom",
+   "Morbus Meulengracht",
+   "Barrett-Ösophagus",
+   "Sjögren-Syndrom",
+   "Guillain-Barré-Syndrom",
+   "Alzheimer-Demenz",
+   "Bell-Parese",
+   "Baker-Zyste",
+   "Dupuytren-Kontraktur",
+   "Wernicke-Enzephalopathie",
+   "Tietze-Syndrom",
+   "Mallory-Weiss-Läsion",
+   "Billroth-II-Resektion",
+   "Hartmann-Operation",
+   "Whipple-Operation",
+   "Lichtenstein-Plastik",
+   "Seldinger-Technik",
+   "Lasègue-Zeichen",
+   "Babinski-Zeichen",
+   "Romberg-Versuch",
+   "Murphy-Zeichen",
+   "Trendelenburg-Zeichen",
+   "Glasgow Coma Scale",
+   "Child-Pugh-Stadium",
+   "Forrest-Klassifikation",
+   "Weber-B-Fraktur",
+   "Garden-III-Fraktur",
+   "Ranson-Score"
+  ],
+  [
+   "Marcumar",
+   "Novalgin",
+   "Tavor",
+   "Eliquis",
+   "Xarelto",
+   "Clexane",
+   "Lasix",
+   "Arcoxia",
+   "Valoron",
+   "Dominal",
+   "Pantozol",
+   "Euthyrox",
+   "Torem",
+   "Jardiance",
+   "Ozempic",
+   "Tilidin",
+   "Melperon",
+   "Pipamperon",
+   "Ciprofloxacin"
+  ],
+  [
+   "Hamburger Modell zur Wiedereingliederung",
+   "Münchner Funktionelle Entwicklungsdiagnostik",
+   "Berlin-Definition des ARDS",
+   "Mainz-Pouch",
+   "Wiener Schema",
+   "Familiäres Mittelmeerfieber",
+   "Lyme-Borreliose",
+   "Japanische Enzephalitis (Impfung)"
+  ],
+  [
+   "ICD-Kodes zu den Diagnosen",
+   "OPS-Kodes zu den Prozeduren",
+   "TNM-Klassifikation wie pT2 pN1a (2/14) M0 L1 V0 R0",
+   "Gleason-Score 3+4=7",
+   "CHA2DS2-VASc-Score",
+   "Laborwerte mit Uhrzeit",
+   "Chargennummer einer Impfung",
+   "Blutdruck 145/85 mmHg",
+   "Visus 0,8/1,0",
+   "NYHA- oder ASA-Klasse",
+   "Medikation im Schema 1-0-1/2"
+  ]
+ ],
+ "hard_negatives": [
+  "Abteilungskopf in Großbuchstaben mit allgemeiner Bezeichnung, z. B. KLINIK FÜR INNERE MEDIZIN III oder ABTEILUNG FÜR UNFALLCHIRURGIE",
+  "Dokumenttitel in Großbuchstaben, z. B. ARZTBRIEF, KURZARZTBRIEF, VERLEGUNGSBERICHT, KONSILANFORDERUNG",
+  "Funktionsangaben in Großbuchstaben, z. B. LEITENDER OBERARZT, FACHÄRZTIN, ASSISTENZARZT",
+  "allgemeine Stellen ohne Eigennamen: das Sozialamt, das Gesundheitsamt, die Betreuungsbehörde, die Hausarztpraxis, die Reha-Klinik, der Kindergarten",
+  "Uhrzeiten direkt nach einem Datum, z. B. Blutentnahme am Aufnahmetag um 06:50 Uhr",
+  "Körpergröße und Gewicht, z. B. Größe 171 cm, Gewicht 68,2 kg, BMI 23,3",
+  "Messwerte mit vielen Stellen, z. B. Leukozyten 11800/µl, Ferritin 1243 ng/ml, Augeninnendruck 21 mmHg",
+  "Zeitangaben ohne Kalenderdatum, z. B. vor zwei Jahren, seit dem Frühjahr, Anfang der Woche",
+  "Eponyme in Befunden, z. B. Mobitz-Block, Murphy-Zeichen, Babinski-Zeichen, Kernig-Zeichen, Thompson-Test",
+  "Verwandtschaftsangaben ohne Namen, z. B. der Ehemann, die Enkelin, die Mutter begleitet"
+ ],
+ "ward_units": [
+  "Station",
+  "Station",
+  "Station",
+  "Intensiv",
+  "Intensivstation",
+  "ITS",
+  "IMC",
+  "Wachstation",
+  "Normalstation",
+  "Stroke Unit",
+  "Kinderstation",
+  "Privatstation",
+  "Aufnahmestation",
+  "Überwachungsstation"
+ ],
+ "ward_lines": [
+  "{e} {s}",
+  "{e} {s}, Zimmer {z}",
+  "Stat./Zi./Bett: {s}/{z}/{b}",
+  "Station: {s}\tZimmer: {z}",
+  "{e} {s} / Zi. {z}",
+  "Stationsärztin {e} {s}",
+  "Stationsarzt {e} {s}",
+  "Verlegung auf {e} {s}",
+  "Aufnahme auf {e} {s}, Zi. {z}, Bett {b}",
+  "Stat. {s} Zi {z}",
+  "{e}: {s}",
+  "Zi./Bett {z}/{b}"
+ ],
+ "user_lines": [
+  "Erstellt von: {k}",
+  "erstellt von {k}",
+  "Diktiert von {k}",
+  "Visiert: {k}",
+  "visiert {k}",
+  "Befunder: {k}",
+  "Gedruckt von {k}",
+  "Benutzer: {k}",
+  "Freigabe durch {k}",
+  "Freigegeben: {k}",
+  "Schreibkraft: {k}",
+  "Bearbeiter: {k}",
+  "Dokument erstellt durch {k}",
+  "Validiert von {k}",
+  "{k}"
+ ],
+ "salutations": [
+  [
+   "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,",
+   5
+  ],
+  [
+   "Sehr geehrter Herr Kollege, / Sehr geehrte Frau Kollegin, (ohne Namen)",
+   5
+  ],
+  [
+   "Sehr geehrte Kolleginnen und Kollegen,",
+   2
+  ],
+  [
+   "Sehr geehrte Damen und Herren,",
+   2
+  ],
+  [
+   "Anrede mit Titel und Nachname der Empfängerin oder des Empfängers",
+   4
+  ],
+  [
+   "Liebe Frau Kollegin, / Lieber Herr Kollege, (mit oder ohne Nachname)",
+   1
+  ],
+  [
+   "Werte Kollegen,",
+   0.5
+  ],
+  [
+   "ohne Anrede, der Text beginnt direkt",
+   2
+  ]
+ ],
+ "closings": [
+  [
+   "Mit freundlichen kollegialen Grüßen",
+   5
+  ],
+  [
+   "Mit freundlichen Grüßen",
+   4
+  ],
+  [
+   "Mit kollegialen Grüßen",
+   3
+  ],
+  [
+   "Mit besten Grüßen",
+   1
+  ],
+  [
+   "Mit besten kollegialen Grüßen",
+   1
+  ],
+  [
+   "MfkG",
+   0.5
+  ],
+  [
+   "Freundliche Grüße",
+   1
+  ],
+  [
+   "Hochachtungsvoll",
+   0.3
+  ],
+  [
+   "ohne Grußformel, nur Namen und Funktionen",
+   1.5
+  ]
+ ],
+ "contact_forms": [
+  [
+   "Tel.: … · Fax: … in einer Zeile",
+   3
+  ],
+  [
+   "Telefon … und Telefax … je in eigener Zeile",
+   3
+  ],
+  [
+   "Tel … / Fax … ohne Doppelpunkt",
+   2
+  ],
+  [
+   "T … | F …",
+   1
+  ],
+  [
+   "Fon … Fax …",
+   1
+  ],
+  [
+   "Sekretariat: …, Fax: …",
+   2
+  ],
+  [
+   "Telefonnummer nur im Fuß des Briefs",
+   1.5
+  ],
+  [
+   "Telefon und Fax ohne Bezeichnung hinter der Anschrift",
+   1
+  ],
+  [
+   "nur die Telefonnummer, kein Fax",
+   1
+  ]
+ ],
+ "openings": [
+  [
+   "wir berichten über …",
+   4
+  ],
+  [
+   "wir berichten Ihnen nachfolgend über …",
+   2
+  ],
+  [
+   "nachfolgend berichten wir über …",
+   2
+  ],
+  [
+   "o. g. Patient/in befand sich vom … bis … in unserer stationären Behandlung",
+   3
+  ],
+  [
+   "vielen Dank für die freundliche Zuweisung Ihres Patienten …",
+   2
+  ],
+  [
+   "Ihr/e Patient/in stellte sich am … bei uns vor",
+   3
+  ],
+  [
+   "die Vorstellung erfolgte …",
+   1.5
+  ],
+  [
+   "ohne Einleitungssatz, es folgt gleich die Diagnoseliste",
+   3
+  ],
+  [
+   "anbei unser Bericht über …",
+   1
+  ],
+  [
+   "wir dürfen über … berichten",
+   1
+  ]
+ ],
+ "letterheads": [
+  "voller Briefkopf mit Klinik, Anschrift und Kontakt, danach Empfänger mit Anschrift",
+  "knapper Kopf: Klinik und Datum, dann Betreffzeile mit Patientendaten",
+  "kein Briefkopf, das Dokument beginnt mit den Patientendaten",
+  "Kopfzeilen wie aus einem Kliniksystem, je Angabe eine Zeile im Format 'Abteilung: …', 'Station: …', 'Zi: …', 'Datum: …'",
+  "Klinikname im Kopf in GROSSBUCHSTABEN, darunter die Abteilung"
+ ],
+ "date_formats": [
+  "TT.MM.JJJJ",
+  "TT.MM.JJJJ",
+  "TT.MM.JJ",
+  "T.M.JJJJ ohne führende Nullen",
+  "TT. Monat JJJJ mit ausgeschriebenem Monat",
+  "TT/MM/JJJJ mit Schrägstrichen",
+  "gemischt, wie bei mehreren Schreibern"
+ ],
+ "history_forms": [
+  "Diagnoseliste mit Erstdiagnosen kurz als Monat/Jahr, auch ohne führende Null, z. B. (ED 7/19) oder (03/21)",
+  "Voroperationen und Erstdiagnosen mit Monat und Jahr (MM/JJ oder MM/JJJJ)",
+  "Vorgeschichte nur mit Jahreszahlen",
+  "Vorgeschichte teils mit vollem Datum, teils nur Monat/Jahr, teils nur Jahr",
+  "kaum Vorgeschichte, wenige Daten"
+ ],
+ "naming_children": [
+  "Im Fließtext wird das Kind oder die jugendliche Person meist nur mit Vornamen genannt, wie in Kinderklinik und KJP üblich",
+  "Im Fließtext steht meist nur der Vorname",
+  "Im Fließtext 'der Patient' oder 'die Patientin', Name nur im Kopf"
+ ],
+ "naming_psychiatry": [
+  "Im Fließtext 'Frau/Herr Nachname'",
+  "Im Fließtext 'die Patientin/der Patient'",
+  "Im Fließtext teils nur mit Vornamen"
+ ],
+ "tones": [
+  "überwiegend Telegrammstil mit vielen Abkürzungen",
+  "Fließtext in Epikrise und Anamnese, Befunde im Telegrammstil",
+  "diktierter Fließtext, eher förmlich"
+ ],
+ "difficult_courses": [
+  "mit Intensivaufenthalt",
+  "mit mehreren Eingriffen",
+  "mit wechselnden Therapien",
+  "mit Therapiezieländerung"
+ ]
+}

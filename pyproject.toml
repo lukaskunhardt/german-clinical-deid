@@ -1,0 +1,22 @@
+[project]
+name = "german-clinical-deid"
+version = "1.0.0"
+description = "Find and remove personal information in German clinical text"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lukas Kunhardt" }]
+requires-python = ">=3.9"
+dependencies = ["torch", "transformers>=4.40", "numpy"]
+
+[project.optional-dependencies]
+onnx = ["onnxruntime", "huggingface_hub"]
+presidio = ["presidio-analyzer"]
+spacy = ["spacy>=3"]
+train = ["accelerate", "faker", "huggingface_hub", "onnx", "onnxruntime", "matplotlib"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["german_clinical_deid"]
