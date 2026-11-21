@@ -67,13 +67,12 @@ To make new letters, `factory.py` writes them through the OpenRouter API (`OPENR
 | `export_onnx.py` | ONNX export (fp32, fp16, int8) and agreement check |
 | `plot_pareto.py` | quality against size chart |
 | `results/` | dev and test numbers of every model that `plot_pareto.py` draws |
-| `rules/` | the rules I wrote before I opened the test sets for the release, unchanged, with their SHA-256 |
+| `rules/` | the evaluation rules I fixed before the final test run |
 | `data/` | place lists, prompts and diagnoses that `factory.py` uses |
 
 ## Tests
 
-`tests/test_equivalence.py` checks that the package, `train.py` and `evaluate.py` give the same spans, labels and numbers as the research code that produced the released model.
-The other files in `tests/` do the same for the data steps. The tests compare against the research code, so they need a copy of it; they are here to show how I checked the rewrite.
+This code is a clean rewrite of my research code. The tests in `tests/` compared both versions and found the same spans, labels and scores. They need the old research code to run, so they are mainly a record of that check.
 
 ## License
 

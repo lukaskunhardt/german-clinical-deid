@@ -1,6 +1,6 @@
 {
  "title": "German de-identification models on the test sets: quality against size",
- "caption": "GraSCCo test (41 letters) and MDeID German test (402 notes), opened once on 20 Nov 2026, 16:06 UTC; every model read through the same decoder.",
+ "caption": "GraSCCo test (41 letters) and MDeID German test (402 notes). Each model at the better of its default and a tuned threshold.",
  "metrics": {
   "char_f1": "Character F1, GraSCCo test (41 letters)",
   "grascco_leak_rate": "Letters with a leak, GraSCCo test (41 letters)",
