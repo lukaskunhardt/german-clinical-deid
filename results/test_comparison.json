@@ -59,6 +59,72 @@
    ]
   },
   {
+   "name": "LukasKunhardt/german-clinical-deid-base",
+   "params": 109351699,
+   "released": true,
+   "source": "test opening of 22 Nov 2026 for this model; same evaluation code and test sets as the other models",
+   "rows": [
+    {
+     "setting": "threshold 0.01, seed 42 (shipped)",
+     "char_f1": 0.9478678276400984,
+     "char_p": 0.9053203966307709,
+     "char_r": 0.9946116902893288,
+     "grascco_leaks": 1,
+     "grascco_leaks_strict": 1,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.024390243902439025,
+     "mdeid_char_f1": 0.9460846485296959,
+     "mdeid_leak_rate": 0.11194029850746269,
+     "mdeid_leak_rate_no_random_ids": 0.03731343283582089,
+     "mdeid_strict_typed_f1": 0.439327110472869
+    },
+    {
+     "setting": "onnx/model_fp16.onnx (shipped file)",
+     "char_f1": 0.9476562499999999,
+     "char_p": 0.9049344559309389,
+     "char_r": 0.9946116902893288,
+     "grascco_leaks": 1,
+     "grascco_leaks_strict": 1,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.024390243902439025,
+     "mdeid_char_f1": 0.9460965684071714,
+     "mdeid_leak_rate": 0.11194029850746269,
+     "mdeid_leak_rate_no_random_ids": 0.03731343283582089,
+     "mdeid_strict_typed_f1": 0.439304579722037
+    }
+   ],
+   "other_seeds": [
+    {
+     "setting": "threshold 0.01, seed 43",
+     "char_f1": 0.9411112343351448,
+     "char_p": 0.8935453301042434,
+     "char_r": 0.9940260044512124,
+     "grascco_leaks": 1,
+     "grascco_leaks_strict": 1,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.024390243902439025,
+     "mdeid_char_f1": 0.9476058146311798,
+     "mdeid_leak_rate": 0.12686567164179105,
+     "mdeid_leak_rate_no_random_ids": 0.05970149253731343,
+     "mdeid_strict_typed_f1": 0.4330416881111683
+    },
+    {
+     "setting": "threshold 0.01, seed 44",
+     "char_f1": 0.9431553236371711,
+     "char_p": 0.896380711195526,
+     "char_r": 0.995080238959822,
+     "grascco_leaks": 1,
+     "grascco_leaks_strict": 1,
+     "grascco_docs": 41,
+     "grascco_leak_rate": 0.024390243902439025,
+     "mdeid_char_f1": 0.9453256579774264,
+     "mdeid_leak_rate": 0.12189054726368159,
+     "mdeid_leak_rate_no_random_ids": 0.04228855721393035,
+     "mdeid_strict_typed_f1": 0.4394810480793691
+    }
+   ]
+  },
+  {
    "name": "Horizon-Labs/pii-redactor-base",
    "params": 307575611,
    "released": false,

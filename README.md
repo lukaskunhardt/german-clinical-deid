@@ -52,6 +52,15 @@ python plot_pareto.py results/test_comparison.json --metric mdeid_leak_rate --lo
 
 To make new letters, `factory.py` writes them through the OpenRouter API (`OPENROUTER_API_KEY`) and `labels.py` turns them into labelled records.
 
+## Smaller model
+
+[LukasKunhardt/german-clinical-deid-base](https://huggingface.co/LukasKunhardt/german-clinical-deid-base) is gbert-base (109M parameters) trained to copy the large model's probabilities as well as the gold labels. It leaks in about as many MDeID test notes as the large model, with a slightly lower F1, and is meant for German only. The package loads it the same way: `Deidentifier("LukasKunhardt/german-clinical-deid-base")`.
+
+```bash
+python rerender.py --download train_r10.jsonl --n 10 --seed 7   # 28,050 letters
+python distill.py --data train_r10.jsonl --seed 42 --out model-base  # one NVIDIA A10G, about 40 minutes
+```
+
 ## Files
 
 | File | What it does |
@@ -63,6 +72,7 @@ To make new letters, `factory.py` writes them through the OpenRouter API (`OPENR
 | `labels.py` | labels the letters by code, rejects bad letters, judge filter, overlap check against test sets |
 | `rerender.py` | writes each letter again with new invented values |
 | `train.py` | trains the model |
+| `distill.py` | trains the smaller model from the large model's probabilities |
 | `evaluate.py` | measures a model on GraSCCo or MDeID |
 | `export_onnx.py` | ONNX export (fp32, fp16, int8) and agreement check |
 | `plot_pareto.py` | quality against size chart |

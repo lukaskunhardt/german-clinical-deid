@@ -126,7 +126,7 @@ def main():
     fig.subplots_adjust(left=0.08, right=0.98, top=0.92, bottom=0.2)
     place_labels(ax, items, [(m[0], m[1]) for m in models], line)
 
-    handles = [Line2D([], [], marker="o", ls="", ms=14, color=MINE, label="my model"),
+    handles = [Line2D([], [], marker="o", ls="", ms=14, color=MINE, label="my models" if sum(m[3] for m in models) > 1 else "my model"),
                Line2D([], [], marker="o", ls="", ms=9, color=OTHER, label="other open model (better of its two settings)"),
                Line2D([], [], color=FRONT, ls="--", lw=1.6, label="Pareto front: no smaller model is better")]
     fig.legend(handles=handles, loc="lower left", bbox_to_anchor=(0.08, 0.065), ncol=3, frameon=False, fontsize=14)
