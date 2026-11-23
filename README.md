@@ -15,7 +15,7 @@ The type of a span comes from the most likely identifier class. Text that is alm
 ## Install
 
 ```bash
-pip install "german-clinical-deid @ git+https://github.com/lukaskunhardt/german-clinical-deid"
+pip install german-clinical-deid
 ```
 
 Extras: `[onnx]` for the ONNX files, `[presidio]` for the Presidio recognizer, `[spacy]` for the spaCy component, `[train]` to rebuild data and model.
