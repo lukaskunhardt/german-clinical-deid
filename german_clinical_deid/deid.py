@@ -80,7 +80,7 @@ class OnnxModel:
 
 class Deidentifier:
     def __init__(self, model, threshold=None, type_threshold=None, device=None, batch_size=16, onnx_file=None):
-        """model: Hub id or local folder. onnx_file: path inside it (for example "onnx/model_fp16.onnx") to run with onnxruntime."""
+        """model: Hub id or local folder. onnx_file: path inside it (for example "onnx/model.onnx" or "onnx/model_quantized.onnx") to run with onnxruntime."""
         import torch
         from transformers import AutoConfig, AutoModelForTokenClassification, AutoTokenizer
 

@@ -1,12 +1,24 @@
 [project]
 name = "german-clinical-deid"
-version = "1.0.2"
+version = "1.1.0"
 description = "Find and remove personal information in German clinical text"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Lukas Kunhardt" }]
 requires-python = ">=3.9"
+keywords = ["de-identification", "anonymization", "pseudonymization", "PHI", "PII", "clinical", "German", "NER", "transformers"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Natural Language :: German",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
 dependencies = ["torch", "transformers>=4.40", "numpy"]
+
+[project.urls]
+Homepage = "https://huggingface.co/LukasKunhardt/german-clinical-deid"
+Source = "https://github.com/lukaskunhardt/german-clinical-deid"
 
 [project.optional-dependencies]
 onnx = ["onnxruntime", "huggingface_hub"]

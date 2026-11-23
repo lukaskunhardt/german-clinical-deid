@@ -15,7 +15,7 @@ The type of a span comes from the most likely identifier class. Text that is alm
 ## Install
 
 ```bash
-pip install "git+https://github.com/lukaskunhardt/german-clinical-deid"
+pip install "german-clinical-deid @ git+https://github.com/lukaskunhardt/german-clinical-deid"
 ```
 
 Extras: `[onnx]` for the ONNX files, `[presidio]` for the Presidio recognizer, `[spacy]` for the spaCy component, `[train]` to rebuild data and model.
@@ -37,7 +37,7 @@ Herr [PHI] (geb. [PHI]) wurde am [PHI] im [PHI] aufgenommen.
 ```
 
 `deid.spans(text)` gives the redaction spans as `(start, end, score)`. `deid.entities(text)` gives one span per identifier with its type.
-`Deidentifier(..., threshold=0.5)` redacts less. `Deidentifier(..., onnx_file="onnx/model_fp16.onnx")` runs the ONNX file with onnxruntime.
+`Deidentifier(..., threshold=0.5)` redacts less. `Deidentifier(..., onnx_file="onnx/model.onnx")` runs the ONNX file with onnxruntime.
 
 ## Reproduce the model
 
@@ -46,7 +46,7 @@ pip install -e ".[train]"
 python rerender.py --download train.jsonl --n 2 --seed 1   # the 2,550 published letters, plus 2 copies with new invented values
 python train.py --data train.jsonl --seed 44 --out model  # one NVIDIA A10G, about 45 minutes
 python evaluate.py --model model --data grascco --split dev
-python export_onnx.py --model model --check train.jsonl   # fp32, fp16 and int8 files, agreement with PyTorch
+python export_onnx.py --model model --check train.jsonl   # model.onnx, model_quantized.onnx, model_fp16.onnx, agreement with PyTorch
 python plot_pareto.py results/test_comparison.json --metric mdeid_leak_rate --lower-is-better --percent --out pareto
 ```
 
@@ -74,7 +74,7 @@ python distill.py --data train_r10.jsonl --seed 42 --out model-base  # one NVIDI
 | `train.py` | trains the model |
 | `distill.py` | trains the smaller model from the large model's probabilities |
 | `evaluate.py` | measures a model on GraSCCo or MDeID |
-| `export_onnx.py` | ONNX export (fp32, fp16, int8) and agreement check |
+| `export_onnx.py` | ONNX export (fp32, int8 embeddings, fp16) and agreement with PyTorch |
 | `plot_pareto.py` | quality against size chart |
 | `results/` | dev and test numbers of every model that `plot_pareto.py` draws |
 | `rules/` | the evaluation rules I fixed before the final test run |
