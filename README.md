@@ -61,6 +61,28 @@ python rerender.py --download train_r10.jsonl --n 10 --seed 7   # 28,050 letters
 python distill.py --data train_r10.jsonl --seed 42 --out model-base  # one NVIDIA A10G, about 40 minutes
 ```
 
+## Use with Presidio
+
+```bash
+pip install "german-clinical-deid[presidio]"
+python -m spacy download de_core_news_sm
+```
+
+```python
+from presidio_analyzer import AnalyzerEngine
+from presidio_analyzer.nlp_engine import NlpEngineProvider
+from german_clinical_deid.presidio import GermanClinicalRecognizer
+
+nlp = NlpEngineProvider(nlp_configuration={"nlp_engine_name": "spacy", "models": [{"lang_code": "de", "model_name": "de_core_news_sm"}]})
+engine = AnalyzerEngine(nlp_engine=nlp.create_engine(), supported_languages=["de"])
+engine.registry.add_recognizer(GermanClinicalRecognizer("LukasKunhardt/german-clinical-deid"))
+text = "Herr Max Muster (geb. 03.02.1961) wurde am 12.05.2024 im Klinikum Nord aufgenommen."
+for r in engine.analyze(text, language="de"):
+    print(r.entity_type, text[r.start:r.end])
+```
+
+The recognizer returns the model's own types (`NAME_PATIENT`, `DATE`, `LOCATION_HOSPITAL`, ...). Presidio's built-in recognizers (for example its spaCy PERSON and pattern-based PHONE_NUMBER) still run next to it unless you remove them.
+
 ## Measure it on your own documents
 
 The model has only been tested on synthetic and openly available letters. If you have annotated clinical text that cannot leave your site, `partner_eval.py` measures the model there and writes one JSON file with sums only: no text, no file names, no per-document rows. It reads brat, INCEpTION (UIMA CAS JSON), GATE XML and a simple JSONL format, works with any label scheme and runs offline once the model folder is copied in.
