@@ -61,6 +61,17 @@ python rerender.py --download train_r10.jsonl --n 10 --seed 7   # 28,050 letters
 python distill.py --data train_r10.jsonl --seed 42 --out model-base  # one NVIDIA A10G, about 40 minutes
 ```
 
+## Measure it on your own documents
+
+The model has only been tested on synthetic and openly available letters. If you have annotated clinical text that cannot leave your site, `partner_eval.py` measures the model there and writes one JSON file with sums only: no text, no file names, no per-document rows. It reads brat, INCEpTION (UIMA CAS JSON), GATE XML and a simple JSONL format, works with any label scheme and runs offline once the model folder is copied in.
+
+```bash
+pip install german-clinical-deid
+python partner_eval.py --format brat --path my_notes/ --direct NAME,ID,PHONE,STREET --out counts.json
+```
+
+It reports word-level and character-level precision, recall and F1 for two ways of running the model (the helper package and the plain `pipeline()`), how many spans of each of your labels were redacted, and in how many documents a name, ID, phone number or street (your `--direct` labels) stayed readable.
+
 ## Files
 
 | File | What it does |
@@ -74,6 +85,7 @@ python distill.py --data train_r10.jsonl --seed 42 --out model-base  # one NVIDI
 | `train.py` | trains the model |
 | `distill.py` | trains the smaller model from the large model's probabilities |
 | `evaluate.py` | measures a model on GraSCCo or MDeID |
+| `partner_eval.py` | measures the model on your own annotated documents and writes sums only |
 | `export_onnx.py` | ONNX export (fp32, int8 embeddings, fp16) and agreement with PyTorch |
 | `plot_pareto.py` | quality against size chart |
 | `results/` | dev and test numbers of every model that `plot_pareto.py` draws |
